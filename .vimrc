@@ -45,7 +45,7 @@ set autoindent
 if has("gui_running")
     set guioptions-=m
     set guioptions-=T
-    set guifont=Inconsolata\ Medium\ 12
+    set guifont=Inconsolata\ Medium\ 11
     set background=dark
     " let g:mayansmoke_special_key_visibility = 2  " higher visibility 
     " let g:mayansmoke_cursor_line_visibility = 2  " higher visibility
@@ -85,6 +85,7 @@ map <Leader>rf :FuzzyFinderTextMateRefreshFiles<CR>
 
 " Filetypes
 au BufNewFile,BufRead *.ctp set syntax=php
+autocmd FileType php let php_sql_query=1
 au BufNewFile,BufRead *.json set syntax=javascript
 
 " TagList
