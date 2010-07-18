@@ -41,7 +41,7 @@ $extensions = array(
 	'xmlrpc', 'xsl', /*'wddx',*/ 'zip', 'zlib'
 	);
 
-$out_file = '/home/dqminh/.vim/php.vim'; // Pick your output file & location.
+$out_file = '/home/dqminh//.vim/php_vimgen_out.vim'; // Pick your output file & location.
 $out_str = '';
 $store = array();
 $errors = array();
