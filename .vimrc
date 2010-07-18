@@ -91,8 +91,11 @@ au BufNewFile,BufRead *.json set syntax=javascript
 " TagList
 let Tlist_Compact_Format = 0
 let Tlist_Close_On_Select = 1
-let Tlist_Show_One_File = 0
+let Tlist_Show_One_File = 1
 let Tlist_Show_Menu = 1
+let Tlist_Auto_Highlight_Tag = 1
+let Tlist_Auto_Update = 1
+
 
 " Source PDV
 source ~/.vim/plugin/php-doc.vim
