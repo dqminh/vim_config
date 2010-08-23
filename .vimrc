@@ -2,7 +2,7 @@
 set nocompatible	" use vim defaults
 syntax on
 filetype indent on
-" filetype plugin on
+filetype plugin on
 
 let mapleader = ","
 set wildmenu
@@ -49,6 +49,9 @@ if has("gui_running")
     set background=dark
     " let g:mayansmoke_special_key_visibility = 2  " higher visibility 
     " let g:mayansmoke_cursor_line_visibility = 2  " higher visibility
+    " let moria_fontface='mixed'
+    " let g:zenburn_high_Contrast = 1
+    " let g:zenburn_alternate_Visual = 1
     colorscheme moria
 else
     set t_Co=256
@@ -57,8 +60,8 @@ else
 endif
 
 " Mapping
-map <F1> :previous<CR>
-map <F2> :next<CR>
+map <F1> :bprevious<CR>
+map <F2> :bnext<CR>
 map <F7> :NERDTreeToggle<CR>
 map <F8> :TlistToggle<CR>
 map ,ev :sp ~/.vimrc<CR>
@@ -80,11 +83,15 @@ nnoremap <C-P> :call PhpDocSingle()<CR>
 vnoremap <C-P> :call PhpDocSingle()<CR>
 
 " Map FuzzyFinderTextmate
-map <Leader>t :FuzzyFinderTextMate<CR>
-map <Leader>rf :FuzzyFinderTextMateRefreshFiles<CR>
+" map <Leader>t :FuzzyFinderTextMate<CR>
+" map <Leader>rf :FuzzyFinderTextMateRefreshFiles<CR>
 
 " Filetypes
+au BufNewFile,BufRead *.ctp set filetype=ignore
 au BufNewFile,BufRead *.ctp set syntax=php
+au BufNewFile,BufRead *.ctp set autoindent
+au BufNewFile,BufRead *.phpnote set autoindent
+au BufNewFile,BufRead *.phpnote set syntax=php
 autocmd FileType php let php_sql_query=1
 au BufNewFile,BufRead *.json set syntax=javascript
 
@@ -95,7 +102,6 @@ let Tlist_Show_One_File = 1
 let Tlist_Show_Menu = 1
 let Tlist_Auto_Highlight_Tag = 1
 let Tlist_Auto_Update = 1
-
 
 " Source PDV
 source ~/.vim/plugin/php-doc.vim
