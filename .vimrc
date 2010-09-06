@@ -1,8 +1,7 @@
 " General
 set nocompatible	" use vim defaults
 syntax on
-filetype indent on
-filetype plugin on
+filetype plugin indent on
 
 let mapleader = ","
 set wildmenu
@@ -35,28 +34,37 @@ set fo=tcrq         " t autowraps text using textwidth
                     " r autoinserts the current comment leader
                     " q allows formatting of comments
 
-" FuzzyFinder ignore list
-let g:fuzzy_ignore = "*.png,*.PNG;*.JPG;*.jpg;*.gif;app/tmp/**;tmp/**"
-
 " Indent
 set autoindent
+" Filetypes
+au BufNewFile,BufRead *.ctp set filetype=ignore
+au BufNewFile,BufRead *.ctp set syntax=php
+au BufNewFile,BufRead *.ctp set autoindent
+au BufNewFile,BufRead *.phpnote set autoindent
+au BufNewFile,BufRead *.phpnote set syntax=php
+autocmd FileType php let php_sql_query=1
+au BufNewFile,BufRead *.json set syntax=javascript
+autocmd FileType python let python_highlight_all = 1
 
 " Colorscheme
 if has("gui_running")
     set guioptions-=m
     set guioptions-=T
-    set guifont=Inconsolata\ Medium\ 11
-    set background=dark
+    " set guifont=Inconsolata-dz\ Medium\ 9
+    " set guifont=Inconsolata\ Medium\ 11
+    " set guifont=Anonymous\ Pro\ Regular\ 11
+    set guifont=Consolas\ Regular\ 10.5
+    " set guifont=Droid\ Sans\ Mono\ 8.8
     " let g:mayansmoke_special_key_visibility = 2  " higher visibility 
     " let g:mayansmoke_cursor_line_visibility = 2  " higher visibility
     " let moria_fontface='mixed'
-    " let g:zenburn_high_Contrast = 1
-    " let g:zenburn_alternate_Visual = 1
+    let moria_fontface='none'
+    set background=dark
     colorscheme moria
 else
     set t_Co=256
     set background=dark
-    colorscheme peaksea
+    colorscheme moria
 endif
 
 " Mapping
@@ -82,18 +90,12 @@ inoremap <C-P> :call PhpDocSingle()<CR>i
 nnoremap <C-P> :call PhpDocSingle()<CR>
 vnoremap <C-P> :call PhpDocSingle()<CR>
 
-" Map FuzzyFinderTextmate
-" map <Leader>t :FuzzyFinderTextMate<CR>
-" map <Leader>rf :FuzzyFinderTextMateRefreshFiles<CR>
+" Map Command-T
+nnoremap <Leader>rf :CommandTFlush<CR>
 
-" Filetypes
-au BufNewFile,BufRead *.ctp set filetype=ignore
-au BufNewFile,BufRead *.ctp set syntax=php
-au BufNewFile,BufRead *.ctp set autoindent
-au BufNewFile,BufRead *.phpnote set autoindent
-au BufNewFile,BufRead *.phpnote set syntax=php
-autocmd FileType php let php_sql_query=1
-au BufNewFile,BufRead *.json set syntax=javascript
+" NERDTree
+let NERDTreeChDirMode = 2
+let NERDTreeIgnore=['\.pyc']
 
 " TagList
 let Tlist_Compact_Format = 0
