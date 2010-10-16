@@ -85,6 +85,7 @@ if &background == "dark"
             hi Folded guibg=#4e4e4e guifg=#bdcae3 gui=none
         endif            
     endif
+    hi ColorColumn guibg=#4C9DBA
     hi Cursor guibg=#ffa500 guifg=bg gui=none
     hi DiffAdd guibg=#008b00 guifg=fg gui=none
     hi DiffChange guibg=#00008b guifg=fg gui=none

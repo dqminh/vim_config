@@ -1,0 +1,579 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Application	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class Application(object):$/;"	c
+AsyncHTTPClient	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^class AsyncHTTPClient(object):$/;"	c
+AsyncHTTPClient2	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^class AsyncHTTPClient2(object):$/;"	c
+BaseRequestHandler	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^class BaseRequestHandler(web.RequestHandler):$/;"	c
+BucketHandler	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^class BucketHandler(BaseRequestHandler):$/;"	c
+CONTENT_TYPES	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    CONTENT_TYPES = set([$/;"	v	class:GZipContentEncoding
+CONVERSIONS	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^CONVERSIONS = copy.deepcopy(MySQLdb.converters.conversions)$/;"	v
+CSVLocale	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^class CSVLocale(Locale):$/;"	c
+ChunkedTransferEncoding	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class ChunkedTransferEncoding(OutputTransform):$/;"	c
+Connection	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^class Connection(object):$/;"	c
+CurlError	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^class CurlError(HTTPError):$/;"	c
+ERROR	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    ERROR = _EPOLLERR | _EPOLLHUP | _EPOLLRDHUP$/;"	v	class:IOLoop
+Error	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^class Error(Exception):$/;"	c
+ErrorHandler	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class ErrorHandler(RequestHandler):$/;"	c
+FD_CLOEXEC	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^FD_CLOEXEC = 1$/;"	v
+FIELD_TYPE	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^FIELD_TYPE = MySQLdb.constants.FIELD_TYPE$/;"	v
+FIONBIO	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^FIONBIO = 126$/;"	v
+FLAG	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^FLAG = MySQLdb.constants.FLAG$/;"	v
+F_GETFD	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^F_GETFD = 1$/;"	v
+F_GETFL	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^F_GETFL = 3$/;"	v
+F_SETFD	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^F_SETFD = 2$/;"	v
+F_SETFL	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^F_SETFL = 4$/;"	v
+FacebookMixin	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^class FacebookMixin(object):$/;"	c
+FallbackHandler	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class FallbackHandler(RequestHandler):$/;"	c
+FriendFeedMixin	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^class FriendFeedMixin(OAuthMixin):$/;"	c
+GZipContentEncoding	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class GZipContentEncoding(OutputTransform):$/;"	c
+GettextLocale	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^class GettextLocale(Locale):$/;"	c
+GoogleMixin	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^class GoogleMixin(OpenIdMixin, OAuthMixin):$/;"	c
+HANDLE_FLAG_INHERIT	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^HANDLE_FLAG_INHERIT = 0x00000001$/;"	v
+HTTPClient	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^class HTTPClient(object):$/;"	c
+HTTPConnection	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^class HTTPConnection(object):$/;"	c
+HTTPError	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^class HTTPError(Exception):$/;"	c
+HTTPError	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class HTTPError(Exception):$/;"	c
+HTTPHeaders	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^class HTTPHeaders(dict):$/;"	c
+HTTPRequest	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^class HTTPRequest(object):$/;"	c
+HTTPRequest	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^class HTTPRequest(object):$/;"	c
+HTTPRequest	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^class HTTPRequest(object):$/;"	c
+HTTPResponse	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^class HTTPResponse(object):$/;"	c
+HTTPServer	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^class HTTPServer(object):$/;"	c
+IOLoop	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^class IOLoop(object):$/;"	c
+IOStream	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^class IOStream(object):$/;"	c
+IntegrityError	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^IntegrityError = MySQLdb.IntegrityError$/;"	v
+LOCALE_NAMES	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^LOCALE_NAMES = {$/;"	v
+Loader	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class Loader(object):$/;"	c
+Locale	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^class Locale(object):$/;"	c
+MIN_LENGTH	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    MIN_LENGTH = 5$/;"	v	class:GZipContentEncoding
+NONE	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    NONE = 0$/;"	v	class:IOLoop
+OAuthMixin	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^class OAuthMixin(object):$/;"	c
+ObjectHandler	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^class ObjectHandler(BaseRequestHandler):$/;"	c
+OpenIdMixin	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^class OpenIdMixin(object):$/;"	c
+OperationalError	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^OperationalError = MySQLdb.OperationalError$/;"	v
+OutputTransform	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class OutputTransform(object):$/;"	c
+ParseError	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class ParseError(Exception):$/;"	c
+PeriodicCallback	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^class PeriodicCallback(object):$/;"	c
+Pipe	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^class Pipe(object):$/;"	c
+READ	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    READ = _EPOLLIN$/;"	v	class:IOLoop
+RedirectHandler	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class RedirectHandler(RequestHandler):$/;"	c
+RequestHandler	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class RequestHandler(object):$/;"	c
+RootHandler	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^class RootHandler(BaseRequestHandler):$/;"	c
+Row	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^class Row(dict):$/;"	c
+S3Application	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^class S3Application(web.Application):$/;"	c
+SUPPORTED_METHODS	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    SUPPORTED_METHODS = ("PUT", "GET", "DELETE")$/;"	v	class:BaseRequestHandler
+SUPPORTED_METHODS	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    SUPPORTED_METHODS = ("GET", "HEAD", "POST", "DELETE", "PUT")$/;"	v	class:RequestHandler
+SetHandleInformation	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^SetHandleInformation = ctypes.windll.kernel32.SetHandleInformation$/;"	v
+SimpleAsyncHTTPClient	/usr/local/lib/python2.6/dist-packages/tornado/simple_httpclient.py	/^class SimpleAsyncHTTPClient(object):$/;"	c
+StaticFileHandler	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class StaticFileHandler(RequestHandler):$/;"	c
+Template	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class Template(object):$/;"	c
+TwitterMixin	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^class TwitterMixin(OAuthMixin):$/;"	c
+UIModule	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class UIModule(object):$/;"	c
+URLSpec	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class URLSpec(object):$/;"	c
+WRITE	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    WRITE = _EPOLLOUT$/;"	v	class:IOLoop
+WSGIApplication	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^class WSGIApplication(web.Application):$/;"	c
+WSGIContainer	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^class WSGIContainer(object):$/;"	c
+_ARG_DEFAULT	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    _ARG_DEFAULT = []$/;"	v	class:RequestHandler
+_ASYNC_CLIENTS	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    _ASYNC_CLIENTS = weakref.WeakKeyDictionary()$/;"	v	class:AsyncHTTPClient
+_ASYNC_CLIENTS	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    _ASYNC_CLIENTS = weakref.WeakKeyDictionary()$/;"	v	class:AsyncHTTPClient2
+_ApplyBlock	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _ApplyBlock(_Node):$/;"	c
+_ChunkList	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _ChunkList(_Node):$/;"	c
+_CodeWriter	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _CodeWriter(object):$/;"	c
+_ControlBlock	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _ControlBlock(_Node):$/;"	c
+_DATETIME_FORMATS	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    _DATETIME_FORMATS = [$/;"	v	class:_Option
+_EPOLLERR	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLLERR = 0x008$/;"	v	class:IOLoop
+_EPOLLET	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLLET = (1 << 31)$/;"	v	class:IOLoop
+_EPOLLHUP	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLLHUP = 0x010$/;"	v	class:IOLoop
+_EPOLLIN	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLLIN = 0x001$/;"	v	class:IOLoop
+_EPOLLONESHOT	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLLONESHOT = (1 << 30)$/;"	v	class:IOLoop
+_EPOLLOUT	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLLOUT = 0x004$/;"	v	class:IOLoop
+_EPOLLPRI	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLLPRI = 0x002$/;"	v	class:IOLoop
+_EPOLLRDHUP	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLLRDHUP = 0x2000$/;"	v	class:IOLoop
+_EPOLL_CTL_ADD	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLL_CTL_ADD = 1$/;"	v	class:_EPoll
+_EPOLL_CTL_DEL	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLL_CTL_DEL = 2$/;"	v	class:_EPoll
+_EPOLL_CTL_MOD	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _EPOLL_CTL_MOD = 3$/;"	v	class:_EPoll
+_EPoll	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^class _EPoll(object):$/;"	c
+_Expression	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _Expression(_Node):$/;"	c
+_ExtendsBlock	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _ExtendsBlock(_Node):$/;"	c
+_FLOAT_PATTERN	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    _FLOAT_PATTERN = r'[-+]?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:[eE][-+]?\\d+)?'$/;"	v	class:_Option
+_File	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _File(_Node):$/;"	c
+_HTML_UNICODE_MAP	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^_HTML_UNICODE_MAP = _build_unicode_map()$/;"	v
+_IncludeBlock	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _IncludeBlock(_Node):$/;"	c
+_IntermediateControlBlock	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _IntermediateControlBlock(_Node):$/;"	c
+_KQueue	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^class _KQueue(object):$/;"	c
+_LogFormatter	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^class _LogFormatter(logging.Formatter):$/;"	c
+_NamedBlock	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _NamedBlock(_Node):$/;"	c
+_Node	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _Node(object):$/;"	c
+_O	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^class _O(dict):$/;"	c
+_OAUTH_ACCESS_TOKEN_URL	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_ACCESS_TOKEN_URL = "http:\/\/api.twitter.com\/oauth\/access_token"$/;"	v	class:TwitterMixin
+_OAUTH_ACCESS_TOKEN_URL	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_ACCESS_TOKEN_URL = "https:\/\/friendfeed.com\/account\/oauth\/access_token"$/;"	v	class:FriendFeedMixin
+_OAUTH_ACCESS_TOKEN_URL	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_ACCESS_TOKEN_URL = "https:\/\/www.google.com\/accounts\/OAuthGetAccessToken"$/;"	v	class:GoogleMixin
+_OAUTH_AUTHENTICATE_URL	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_AUTHENTICATE_URL = "http:\/\/api.twitter.com\/oauth\/authenticate"$/;"	v	class:TwitterMixin
+_OAUTH_AUTHORIZE_URL	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_AUTHORIZE_URL = "http:\/\/api.twitter.com\/oauth\/authorize"$/;"	v	class:TwitterMixin
+_OAUTH_AUTHORIZE_URL	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_AUTHORIZE_URL = "https:\/\/friendfeed.com\/account\/oauth\/authorize"$/;"	v	class:FriendFeedMixin
+_OAUTH_NO_CALLBACKS	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_NO_CALLBACKS = True$/;"	v	class:FriendFeedMixin
+_OAUTH_NO_CALLBACKS	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_NO_CALLBACKS = True$/;"	v	class:TwitterMixin
+_OAUTH_REQUEST_TOKEN_URL	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_REQUEST_TOKEN_URL = "http:\/\/api.twitter.com\/oauth\/request_token"$/;"	v	class:TwitterMixin
+_OAUTH_REQUEST_TOKEN_URL	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OAUTH_REQUEST_TOKEN_URL = "https:\/\/friendfeed.com\/account\/oauth\/request_token"$/;"	v	class:FriendFeedMixin
+_OPENID_ENDPOINT	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    _OPENID_ENDPOINT = "https:\/\/www.google.com\/accounts\/o8\/ud"$/;"	v	class:GoogleMixin
+_Option	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^class _Option(object):$/;"	c
+_Options	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^class _Options(dict):$/;"	c
+_Select	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^class _Select(object):$/;"	c
+_Statement	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _Statement(_Node):$/;"	c
+_TIMEDELTA_ABBREVS	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    _TIMEDELTA_ABBREVS = [$/;"	v	class:_Option
+_TIMEDELTA_ABBREV_DICT	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    _TIMEDELTA_ABBREV_DICT = dict($/;"	v	class:_Option
+_TIMEDELTA_PATTERN	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    _TIMEDELTA_PATTERN = re.compile($/;"	v	class:_Option
+_TemplateReader	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _TemplateReader(object):$/;"	c
+_Text	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^class _Text(_Node):$/;"	c
+_Timeout	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^class _Timeout(object):$/;"	c
+__call__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __call__(self, request):$/;"	m	class:Application	file:
+__call__	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def __call__(self, environ, start_response):$/;"	m	class:WSGIApplication	file:
+__call__	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def __call__(self, request):$/;"	m	class:WSGIContainer	file:
+__cmp__	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def __cmp__(self, other):$/;"	m	class:_Timeout	file:
+__del__	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def __del__(self):$/;"	m	class:Connection	file:
+__del__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __del__(self):$/;"	m	class:HTTPClient	file:
+__del__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __del__(self):$/;"	m	class:HTTPResponse	file:
+__delitem__	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def __delitem__(self, name):$/;"	m	class:HTTPHeaders	file:
+__enter__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __enter__(self):$/;"	m	class:_CodeWriter	file:
+__exit__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __exit__(self, *args):$/;"	m	class:_CodeWriter	file:
+__getattr__	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def __getattr__(self, name):$/;"	m	class:Row	file:
+__getattr__	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def __getattr__(self, name):$/;"	m	class:_Options	file:
+__getattr__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __getattr__(self, name):$/;"	m	class:_O	file:
+__getitem__	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def __getitem__(self, name):$/;"	m	class:HTTPHeaders	file:
+__getitem__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __getitem__(self, key):$/;"	m	class:_TemplateReader	file:
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def __init__(self, host, database, user=None, password=None):$/;"	m	class:Connection
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __init__(self, code, message=None, response=None):$/;"	m	class:HTTPError
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __init__(self, errno, message):$/;"	m	class:CurlError
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __init__(self, max_simultaneous_connections=None):$/;"	m	class:HTTPClient
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __init__(self, request, code, headers={}, buffer=None, effective_url=None,$/;"	m	class:HTTPResponse
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __init__(self, url, method="GET", headers=None, body=None,$/;"	m	class:HTTPRequest
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def __init__(self, method, uri, version="HTTP\/1.0", headers=None,$/;"	m	class:HTTPRequest
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def __init__(self, request_callback, no_keep_alive=False, io_loop=None,$/;"	m	class:HTTPServer
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def __init__(self, stream, address, request_callback, no_keep_alive=False,$/;"	m	class:HTTPConnection
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:HTTPHeaders
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def __init__(self):$/;"	m	class:_EPoll
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def __init__(self):$/;"	m	class:_KQueue
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def __init__(self):$/;"	m	class:_Select
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def __init__(self, callback, callback_time, io_loop=None):$/;"	m	class:PeriodicCallback
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def __init__(self, deadline, callback):$/;"	m	class:_Timeout
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def __init__(self, impl=None):$/;"	m	class:IOLoop
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def __init__(self, socket, io_loop=None, max_buffer_size=104857600,$/;"	m	class:IOStream
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def __init__(self, code, translations):$/;"	m	class:Locale
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def __init__(self, color, *args, **kwargs):$/;"	m	class:_LogFormatter
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def __init__(self, name, default=None, type=str, help=None, metavar=None,$/;"	m	class:_Option
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def __init__(self, root_directory, bucket_depth=0):$/;"	m	class:S3Application
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/simple_httpclient.py	/^    def __init__(self, io_loop=None):$/;"	m	class:SimpleAsyncHTTPClient
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, body):$/;"	m	class:_File
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, chunks):$/;"	m	class:_ChunkList
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, expression):$/;"	m	class:_Expression
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, file, named_blocks, loader, current_template,$/;"	m	class:_CodeWriter
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, method, body=None):$/;"	m	class:_ApplyBlock
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, name):$/;"	m	class:_ExtendsBlock
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, name, body=None):$/;"	m	class:_NamedBlock
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, name, reader):$/;"	m	class:_IncludeBlock
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, name, text):$/;"	m	class:_TemplateReader
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, root_directory):$/;"	m	class:Loader
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, statement):$/;"	m	class:_IntermediateControlBlock
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, statement):$/;"	m	class:_Statement
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, statement, body=None):$/;"	m	class:_ControlBlock
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, template_string, name="<string>", loader=None,$/;"	m	class:Template
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __init__(self, value):$/;"	m	class:_Text
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, app, request, fallback):$/;"	m	class:FallbackHandler
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, application, request, path):$/;"	m	class:StaticFileHandler
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, application, request, status_code):$/;"	m	class:ErrorHandler
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, application, request, transforms=None):$/;"	m	class:RequestHandler
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, application, request, url, permanent=True):$/;"	m	class:RedirectHandler
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, handler):$/;"	m	class:UIModule
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, handlers=None, default_host="", transforms=None,$/;"	m	class:Application
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, pattern, handler_class, kwargs={}, name=None):$/;"	m	class:URLSpec
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, request):$/;"	m	class:ChunkedTransferEncoding
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, request):$/;"	m	class:GZipContentEncoding
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, request):$/;"	m	class:OutputTransform
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __init__(self, status_code, log_message=None, *args):$/;"	m	class:HTTPError
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^    def __init__(self):$/;"	m	class:Pipe
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def __init__(self, environ):$/;"	m	class:HTTPRequest
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def __init__(self, handlers=None, default_host="", **settings):$/;"	m	class:WSGIApplication
+__init__	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def __init__(self, wsgi_application):$/;"	m	class:WSGIContainer
+__len__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __len__(self):$/;"	m	class:_TemplateReader	file:
+__new__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __new__(cls, io_loop=None, max_clients=10,$/;"	m	class:AsyncHTTPClient	file:
+__new__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __new__(cls, io_loop=None, max_clients=10,$/;"	m	class:AsyncHTTPClient2	file:
+__repr__	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def __repr__(self):$/;"	m	class:HTTPResponse	file:
+__repr__	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def __repr__(self):$/;"	m	class:HTTPRequest	file:
+__setattr__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __setattr__(self, name, value):$/;"	m	class:_O	file:
+__setitem__	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def __setitem__(self, name, value):$/;"	m	class:HTTPHeaders	file:
+__slots__	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    __slots__ = ['deadline', 'callback']$/;"	v	class:_Timeout
+__str__	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def __str__(self):$/;"	m	class:_TemplateReader	file:
+__str__	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def __str__(self):$/;"	m	class:HTTPError	file:
+_add_io_state	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def _add_io_state(self, state):$/;"	m	class:IOStream
+_add_perform_callback	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _add_perform_callback(self):$/;"	m	class:AsyncHTTPClient
+_build_unicode_map	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def _build_unicode_map():$/;"	f
+_check_closed	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def _check_closed(self):$/;"	m	class:IOStream
+_consume	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def _consume(self, loc):$/;"	m	class:IOStream
+_control	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def _control(self, fd, events, flags):$/;"	m	class:_KQueue
+_convert_entity	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def _convert_entity(m):$/;"	f
+_cookie_signature	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _cookie_signature(self, *parts):$/;"	m	class:RequestHandler
+_curl_create	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^def _curl_create(max_simultaneous_connections=None):$/;"	f
+_curl_debug	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^def _curl_debug(debug_type, debug_msg):$/;"	f
+_curl_header_callback	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^def _curl_header_callback(headers, header_line):$/;"	f
+_curl_setup_request	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^def _curl_setup_request(curl, request, buffer, headers):$/;"	f
+_cursor	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def _cursor(self):$/;"	m	class:Connection
+_default_locale	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^_default_locale = "en_US"$/;"	v
+_execute	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def _execute(self, cursor, query, parameters):$/;"	m	class:Connection
+_execute	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _execute(self, transforms, *args, **kwargs):$/;"	m	class:RequestHandler
+_find_groups	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _find_groups(self):$/;"	m	class:URLSpec
+_finish	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _finish(self, curl, curl_error=None, curl_message=None):$/;"	m	class:AsyncHTTPClient
+_finish	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _finish(self, curl, curl_error=None, curl_message=None):$/;"	m	class:AsyncHTTPClient2
+_finish_pending_requests	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _finish_pending_requests(self):$/;"	m	class:AsyncHTTPClient2
+_finish_request	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def _finish_request(self):$/;"	m	class:HTTPConnection
+_format_code	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^def _format_code(code):$/;"	f
+_generate_headers	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _generate_headers(self):$/;"	m	class:RequestHandler
+_generate_python	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def _generate_python(self, loader, compress_whitespace):$/;"	m	class:Template
+_get_ancestors	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def _get_ancestors(self, loader):$/;"	m	class:Template
+_get_body	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _get_body(self):$/;"	m	class:HTTPResponse
+_get_host_handlers	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _get_host_handlers(self, request):$/;"	m	class:Application
+_handle_alarm	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def _handle_alarm(self, signal, frame):$/;"	m	class:IOLoop
+_handle_events	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _handle_events(self, fd, events):$/;"	m	class:AsyncHTTPClient
+_handle_events	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _handle_events(self, fd, events):$/;"	m	class:AsyncHTTPClient2
+_handle_events	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def _handle_events(self, fd, events):$/;"	m	class:HTTPServer
+_handle_events	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def _handle_events(self, fd, events):$/;"	m	class:IOStream
+_handle_read	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def _handle_read(self):$/;"	m	class:IOStream
+_handle_request_exception	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _handle_request_exception(self, e):$/;"	m	class:RequestHandler
+_handle_socket	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _handle_socket(self, event, fd, multi, data):$/;"	m	class:AsyncHTTPClient2
+_handle_timeout	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _handle_timeout(self):$/;"	m	class:AsyncHTTPClient
+_handle_timeout	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _handle_timeout(self):$/;"	m	class:AsyncHTTPClient2
+_handle_write	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def _handle_write(self):$/;"	m	class:IOStream
+_json_decode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^            _json_decode = lambda s: simplejson.loads(_unicode(s))$/;"	v
+_json_decode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^            def _json_decode(s):$/;"	f
+_json_decode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^        _json_decode = lambda s: simplejson.loads(_unicode(s))$/;"	v
+_json_decode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^    _json_decode = lambda s: json.loads(s)$/;"	v
+_json_encode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^            _json_encode = _json_decode$/;"	v
+_json_encode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^            _json_encode = lambda v: simplejson.dumps(v)$/;"	v
+_json_encode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^        _json_encode = lambda v: simplejson.dumps(v)$/;"	v
+_json_encode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^    _json_encode = lambda v: json.dumps(v)$/;"	v
+_load_ui_methods	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _load_ui_methods(self, methods):$/;"	m	class:Application
+_load_ui_modules	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _load_ui_modules(self, modules):$/;"	m	class:Application
+_log	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _log(self):$/;"	m	class:RequestHandler
+_log	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def _log(self, status_code, request):$/;"	m	class:WSGIContainer
+_normalize_name	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def _normalize_name(name):$/;"	m	class:HTTPHeaders
+_oauth_access_token_url	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_access_token_url(self, request_token):$/;"	m	class:OAuthMixin
+_oauth_consumer_token	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_consumer_token(self):$/;"	m	class:FriendFeedMixin
+_oauth_consumer_token	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_consumer_token(self):$/;"	m	class:GoogleMixin
+_oauth_consumer_token	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_consumer_token(self):$/;"	m	class:TwitterMixin
+_oauth_escape	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^def _oauth_escape(val):$/;"	f
+_oauth_get_user	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_get_user(self, access_token, callback):$/;"	m	class:FriendFeedMixin
+_oauth_get_user	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_get_user(self, access_token, callback):$/;"	m	class:GoogleMixin
+_oauth_get_user	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_get_user(self, access_token, callback):$/;"	m	class:OAuthMixin
+_oauth_get_user	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_get_user(self, access_token, callback):$/;"	m	class:TwitterMixin
+_oauth_parse_response	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^def _oauth_parse_response(body):$/;"	f
+_oauth_request_parameters	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_request_parameters(self, url, access_token, parameters={},$/;"	m	class:OAuthMixin
+_oauth_request_token_url	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _oauth_request_token_url(self):$/;"	m	class:OAuthMixin
+_oauth_signature	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^def _oauth_signature(consumer_token, method, url, parameters={}, token=None):$/;"	f
+_object_path	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def _object_path(self, bucket, object_name):$/;"	m	class:BaseRequestHandler
+_on_access_token	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _on_access_token(self, callback, response):$/;"	m	class:OAuthMixin
+_on_authentication_verified	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _on_authentication_verified(self, callback, response):$/;"	m	class:OpenIdMixin
+_on_body	/usr/local/lib/python2.6/dist-packages/tornado/simple_httpclient.py	/^    def _on_body(self, request, callback, stream, code, headers, data):$/;"	m	class:SimpleAsyncHTTPClient
+_on_friendfeed_request	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _on_friendfeed_request(self, callback, response):$/;"	m	class:FriendFeedMixin
+_on_get_user_info	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _on_get_user_info(self, callback, session, users):$/;"	m	class:FacebookMixin
+_on_headers	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def _on_headers(self, data):$/;"	m	class:HTTPConnection
+_on_headers	/usr/local/lib/python2.6/dist-packages/tornado/simple_httpclient.py	/^    def _on_headers(self, request, callback, stream, data):$/;"	m	class:SimpleAsyncHTTPClient
+_on_oauth_get_user	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _on_oauth_get_user(self, access_token, callback, user):$/;"	m	class:OAuthMixin
+_on_request_body	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def _on_request_body(self, data):$/;"	m	class:HTTPConnection
+_on_request_token	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _on_request_token(self, authorize_url, callback_uri, response):$/;"	m	class:OAuthMixin
+_on_twitter_request	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _on_twitter_request(self, callback, response):$/;"	m	class:TwitterMixin
+_on_write_complete	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def _on_write_complete(self):$/;"	m	class:HTTPConnection
+_openid_args	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _openid_args(self, callback_uri, ax_attrs=[], oauth_scope=None):$/;"	m	class:OpenIdMixin
+_parse	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^def _parse(reader, in_block=None):$/;"	f
+_parse_bool	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def _parse_bool(self, value):$/;"	m	class:_Option
+_parse_datetime	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def _parse_datetime(self, value):$/;"	m	class:_Option
+_parse_mime_body	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def _parse_mime_body(self, boundary, data):$/;"	m	class:HTTPConnection
+_parse_mime_body	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def _parse_mime_body(self, boundary):$/;"	m	class:HTTPRequest
+_parse_response	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _parse_response(self, callback, response):$/;"	m	class:FacebookMixin
+_parse_string	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def _parse_string(self, value):$/;"	m	class:_Option
+_parse_timedelta	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def _parse_timedelta(self, value):$/;"	m	class:_Option
+_parse_user_response	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _parse_user_response(self, callback, user):$/;"	m	class:FriendFeedMixin
+_parse_user_response	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _parse_user_response(self, callback, user):$/;"	m	class:TwitterMixin
+_perform	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _perform(self):$/;"	m	class:AsyncHTTPClient
+_poll	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _poll = _KQueue$/;"	v
+_poll	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    _poll = select.epoll$/;"	v	class:_Select
+_process_queue	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _process_queue(self):$/;"	m	class:AsyncHTTPClient2
+_read_waker	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def _read_waker(self, fd, events):$/;"	m	class:IOLoop
+_reload_attempted	/usr/local/lib/python2.6/dist-packages/tornado/autoreload.py	/^_reload_attempted = False$/;"	v
+_reload_on_update	/usr/local/lib/python2.6/dist-packages/tornado/autoreload.py	/^def _reload_on_update(io_loop, modify_times):$/;"	f
+_render_parts	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def _render_parts(self, value, parts=[]):$/;"	m	class:BaseRequestHandler
+_request_summary	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _request_summary(self):$/;"	m	class:RequestHandler
+_run	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def _run(self):$/;"	m	class:PeriodicCallback
+_run_callback	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def _run_callback(self, callback):$/;"	m	class:IOLoop
+_run_callback	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def _run_callback(self, callback, *args, **kwargs):$/;"	m	class:IOStream
+_set_close_exec	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def _set_close_exec(self, fd):$/;"	m	class:IOLoop
+_set_nonblocking	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def _set_nonblocking(self, fd):$/;"	m	class:IOLoop
+_set_timeout	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def _set_timeout(self, msecs):$/;"	m	class:AsyncHTTPClient2
+_signature	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def _signature(self, args):$/;"	m	class:FacebookMixin
+_supported_locales	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^_supported_locales = frozenset([_default_locale])$/;"	v
+_time_independent_equals	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^def _time_independent_equals(a, b):$/;"	f
+_translations	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^_translations = {}$/;"	v
+_ui_method	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _ui_method(self, method):$/;"	m	class:RequestHandler
+_ui_module	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def _ui_module(self, name, module):$/;"	m	class:RequestHandler
+_unicode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def _unicode(value):$/;"	f
+_unicode	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^def _unicode(s):$/;"	f
+_use_gettext	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^_use_gettext = False$/;"	v
+_utf8	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^def _utf8(value):$/;"	f
+_utf8	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^def _utf8(s):$/;"	f
+_wake	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def _wake(self):$/;"	m	class:IOLoop
+add	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def add(self, name, value):$/;"	m	class:HTTPHeaders
+add_callback	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def add_callback(self, callback):$/;"	m	class:IOLoop
+add_handler	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def add_handler(self, fd, handler, events):$/;"	m	class:IOLoop
+add_handlers	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def add_handlers(self, host_pattern, host_handlers):$/;"	m	class:Application
+add_timeout	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def add_timeout(self, deadline, callback):$/;"	m	class:IOLoop
+add_transform	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def add_transform(self, transform_class):$/;"	m	class:Application
+addslash	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^def addslash(method):$/;"	f
+async_callback	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def async_callback(self, callback, *args, **kwargs):$/;"	m	class:RequestHandler
+asynchronous	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^def asynchronous(method):$/;"	f
+authenticate_redirect	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def authenticate_redirect(self):$/;"	m	class:TwitterMixin
+authenticate_redirect	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def authenticate_redirect(self, callback_uri=None, cancel_uri=None,$/;"	m	class:FacebookMixin
+authenticate_redirect	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def authenticate_redirect(self, callback_uri=None,$/;"	m	class:OpenIdMixin
+authenticated	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^def authenticated(method):$/;"	f
+authorize_redirect	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def authorize_redirect(self, callback_uri=None):$/;"	m	class:OAuthMixin
+authorize_redirect	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def authorize_redirect(self, extended_permissions, callback_uri=None,$/;"	m	class:FacebookMixin
+authorize_redirect	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def authorize_redirect(self, oauth_scope, callback_uri=None,$/;"	m	class:GoogleMixin
+bind	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def bind(self, port, address=""):$/;"	m	class:HTTPServer
+body	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    body = property(_get_body)$/;"	v	class:HTTPResponse
+callback	/usr/local/lib/python2.6/dist-packages/tornado/simple_httpclient.py	/^        def callback(response):$/;"	f	function:main
+check_xsrf_cookie	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def check_xsrf_cookie(self):$/;"	m	class:RequestHandler
+clear	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def clear(self):$/;"	m	class:RequestHandler
+clear_all_cookies	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def clear_all_cookies(self):$/;"	m	class:RequestHandler
+clear_cookie	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def clear_cookie(self, name, path="\/", domain=None):$/;"	m	class:RequestHandler
+close	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def close(self):$/;"	m	class:Connection
+close	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def close(self):$/;"	m	class:AsyncHTTPClient
+close	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def close(self):$/;"	m	class:AsyncHTTPClient2
+close	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def close(self):$/;"	m	class:IOStream
+close	/usr/local/lib/python2.6/dist-packages/tornado/simple_httpclient.py	/^    def close(self):$/;"	m	class:SimpleAsyncHTTPClient
+closed	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def closed(self):$/;"	m	class:IOStream
+consume	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def consume(self, count=None):$/;"	m	class:_TemplateReader
+cookies	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def cookies(self):$/;"	m	class:RequestHandler
+css_files	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def css_files(self):$/;"	m	class:UIModule
+current_user	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def current_user(self):$/;"	m	class:RequestHandler
+curses	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    curses = None$/;"	v
+define	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^def define(name, default=None, type=str, help=None, metavar=None,$/;"	f
+delete	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def delete(self, bucket, object_name):$/;"	m	class:ObjectHandler
+delete	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def delete(self, bucket_name):$/;"	m	class:BucketHandler
+delete	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def delete(self, *args, **kwargs):$/;"	m	class:RequestHandler
+each_child	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def each_child(self):$/;"	m	class:_ApplyBlock
+each_child	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def each_child(self):$/;"	m	class:_ChunkList
+each_child	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def each_child(self):$/;"	m	class:_ControlBlock
+each_child	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def each_child(self):$/;"	m	class:_File
+each_child	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def each_child(self):$/;"	m	class:_NamedBlock
+each_child	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def each_child(self):$/;"	m	class:_Node
+embedded_css	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def embedded_css(self):$/;"	m	class:UIModule
+embedded_javascript	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def embedded_javascript(self):$/;"	m	class:UIModule
+enable_pretty_logging	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^def enable_pretty_logging():$/;"	f
+environ	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def environ(request):$/;"	m	class:WSGIContainer
+execute	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def execute(self, query, *parameters):$/;"	m	class:Connection
+executemany	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def executemany(self, query, parameters):$/;"	m	class:Connection
+facebook_request	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def facebook_request(self, method, callback, **args):$/;"	m	class:FacebookMixin
+fcntl	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^def fcntl(fd, op, arg=0):$/;"	f
+fetch	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def fetch(self, request, **kwargs):$/;"	m	class:HTTPClient
+fetch	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def fetch(self, request, callback, **kwargs):$/;"	m	class:AsyncHTTPClient
+fetch	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def fetch(self, request, callback, **kwargs):$/;"	m	class:AsyncHTTPClient2
+fetch	/usr/local/lib/python2.6/dist-packages/tornado/simple_httpclient.py	/^    def fetch(self, request, callback, **kwargs):$/;"	m	class:SimpleAsyncHTTPClient
+field_types	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^field_types = [FIELD_TYPE.BLOB, FIELD_TYPE.STRING, FIELD_TYPE.VAR_STRING]$/;"	v
+fileno	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def fileno(self):$/;"	m	class:_EPoll
+fileno	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def fileno(self):$/;"	m	class:_KQueue
+find	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def find(self, needle, start=0, end=None):$/;"	m	class:_TemplateReader
+find_named_blocks	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def find_named_blocks(self, loader, named_blocks):$/;"	m	class:_IncludeBlock
+find_named_blocks	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def find_named_blocks(self, loader, named_blocks):$/;"	m	class:_NamedBlock
+find_named_blocks	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def find_named_blocks(self, loader, named_blocks):$/;"	m	class:_Node
+finish	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def finish(self):$/;"	m	class:HTTPConnection
+finish	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def finish(self):$/;"	m	class:HTTPRequest
+finish	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def finish(self, chunk=None):$/;"	m	class:RequestHandler
+flush	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def flush(self, include_footers=False):$/;"	m	class:RequestHandler
+format	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def format(self, record):$/;"	m	class:_LogFormatter
+format_date	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def format_date(self, date, gmt_offset=0, relative=True, shorter=False,$/;"	m	class:Locale
+format_day	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def format_day(self, date, gmt_offset=0, dow=True):$/;"	m	class:Locale
+friendfeed_request	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def friendfeed_request(self, path, callback, access_token=None,$/;"	m	class:FriendFeedMixin
+friendly_number	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def friendly_number(self, value):$/;"	m	class:Locale
+full_url	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def full_url(self):$/;"	m	class:HTTPRequest
+full_url	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def full_url(self):$/;"	m	class:HTTPRequest
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, **kwargs):$/;"	m	class:Template
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_ApplyBlock
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_ChunkList
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_ControlBlock
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_Expression
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_File
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_IncludeBlock
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_IntermediateControlBlock
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_NamedBlock
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_Node
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_Statement
+generate	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def generate(self, writer):$/;"	m	class:_Text
+get	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def get(self, query, *parameters):$/;"	m	class:Connection
+get	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def get(self, name, default=None):$/;"	m	class:HTTPHeaders
+get	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def get(cls, code):$/;"	m	class:Locale
+get	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^def get(*locale_codes):$/;"	f
+get	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def get(self):$/;"	m	class:RootHandler
+get	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def get(self, bucket, object_name):$/;"	m	class:ObjectHandler
+get	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def get(self, bucket_name):$/;"	m	class:BucketHandler
+get	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get(self):$/;"	m	class:RedirectHandler
+get	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get(self, *args, **kwargs):$/;"	m	class:RequestHandler
+get	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get(self, path, include_body=True):$/;"	m	class:StaticFileHandler
+get_all	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def get_all(self):$/;"	m	class:HTTPHeaders
+get_argument	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_argument(self, name, default=_ARG_DEFAULT, strip=True):$/;"	m	class:RequestHandler
+get_arguments	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_arguments(self, name, strip=True):$/;"	m	class:RequestHandler
+get_authenticated_user	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def get_authenticated_user(self, callback):$/;"	m	class:FacebookMixin
+get_authenticated_user	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def get_authenticated_user(self, callback):$/;"	m	class:GoogleMixin
+get_authenticated_user	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def get_authenticated_user(self, callback):$/;"	m	class:OAuthMixin
+get_authenticated_user	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def get_authenticated_user(self, callback):$/;"	m	class:OpenIdMixin
+get_ax_arg	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^        def get_ax_arg(uri):$/;"	f	function:OpenIdMixin._on_authentication_verified
+get_browser_locale	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_browser_locale(self, default="en_US"):$/;"	m	class:RequestHandler
+get_closest	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def get_closest(cls, *locale_codes):$/;"	m	class:Locale
+get_cookie	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_cookie(self, name, default=None):$/;"	m	class:RequestHandler
+get_current_user	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_current_user(self):$/;"	m	class:RequestHandler
+get_error_html	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_error_html(self, status_code, **kwargs):$/;"	m	class:RequestHandler
+get_list	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def get_list(self, name):$/;"	m	class:HTTPHeaders
+get_login_url	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_login_url(self):$/;"	m	class:RequestHandler
+get_secure_cookie	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_secure_cookie(self, name, include_name=True, value=None):$/;"	m	class:RequestHandler
+get_supported_locales	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^def get_supported_locales(cls):$/;"	f
+get_template_path	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_template_path(self):$/;"	m	class:RequestHandler
+get_user_locale	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def get_user_locale(self):$/;"	m	class:RequestHandler
+handle_callback_exception	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def handle_callback_exception(self, callback):$/;"	m	class:IOLoop
+head	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def head(self, *args, **kwargs):$/;"	m	class:RequestHandler
+head	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def head(self, path):$/;"	m	class:StaticFileHandler
+html_body	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def html_body(self):$/;"	m	class:UIModule
+html_head	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def html_head(self):$/;"	m	class:UIModule
+indent	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def indent(self):$/;"	m	class:_CodeWriter
+indent_size	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def indent_size(self):$/;"	m	class:_CodeWriter
+initialized	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def initialized(cls):$/;"	m	class:IOLoop
+instance	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def instance(cls):$/;"	m	class:IOLoop
+instance	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def instance(cls):$/;"	m	class:_Options
+ioctl	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^            def ioctl(cmd):$/;"	f	function:_curl_setup_request
+ioctlsocket	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^ioctlsocket = ctypes.windll.ws2_32.ioctlsocket$/;"	v
+iter	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def iter(self, query, *parameters):$/;"	m	class:Connection
+javascript_files	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def javascript_files(self):$/;"	m	class:UIModule
+json_decode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def json_decode(value):$/;"	f
+json_encode	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def json_encode(value):$/;"	f
+list	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def list(self, parts):$/;"	m	class:Locale
+listen	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def listen(self, port, address=""):$/;"	m	class:HTTPServer
+load	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def load(self, name, parent_path=None):$/;"	m	class:Loader
+load_gettext_translations	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^def load_gettext_translations(directory, domain):$/;"	f
+load_translations	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^def load_translations(directory):$/;"	f
+locale	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def locale(self):$/;"	m	class:RequestHandler
+main	/usr/local/lib/python2.6/dist-packages/tornado/simple_httpclient.py	/^def main():$/;"	f
+modify	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def modify(self, fd, events):$/;"	m	class:_EPoll
+modify	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def modify(self, fd, events):$/;"	m	class:_KQueue
+modify	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def modify(self, fd, events):$/;"	m	class:_Select
+on_connection_close	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def on_connection_close(self):$/;"	m	class:RequestHandler
+options	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^options = _Options.instance()$/;"	v
+parse	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def parse(cls, headers):$/;"	m	class:HTTPHeaders
+parse	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def parse(self, value):$/;"	m	class:_Option
+parse_command_line	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^def parse_command_line(args=None):$/;"	f
+parse_config_file	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^def parse_config_file(path):$/;"	f
+parse_line	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def parse_line(self, line):$/;"	m	class:HTTPHeaders
+poll	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def poll(self, timeout):$/;"	m	class:_EPoll
+poll	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def poll(self, timeout):$/;"	m	class:_KQueue
+poll	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def poll(self, timeout):$/;"	m	class:_Select
+post	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def post(self, *args, **kwargs):$/;"	m	class:RequestHandler
+prepare	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def prepare(self):$/;"	m	class:ErrorHandler
+prepare	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def prepare(self):$/;"	m	class:FallbackHandler
+prepare	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def prepare(self):$/;"	m	class:RequestHandler
+print_help	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^def print_help(file=sys.stdout):$/;"	f
+put	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def put(self, bucket, object_name):$/;"	m	class:ObjectHandler
+put	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def put(self, bucket_name):$/;"	m	class:BucketHandler
+put	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def put(self, *args, **kwargs):$/;"	m	class:RequestHandler
+query	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def query(self, query, *parameters):$/;"	m	class:Connection
+read	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^    def read(self):$/;"	m	class:Pipe
+read_bytes	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def read_bytes(self, num_bytes, callback):$/;"	m	class:IOStream
+read_until	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def read_until(self, delimiter, callback):$/;"	m	class:IOStream
+reading	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def reading(self):$/;"	m	class:IOStream
+reconnect	/usr/local/lib/python2.6/dist-packages/tornado/database.py	/^    def reconnect(self):$/;"	m	class:Connection
+redirect	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def redirect(self, url, permanent=False):$/;"	m	class:RequestHandler
+register	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def register(self, fd, events):$/;"	m	class:_EPoll
+register	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def register(self, fd, events):$/;"	m	class:_KQueue
+register	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def register(self, fd, events):$/;"	m	class:_Select
+remaining	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def remaining(self):$/;"	m	class:_TemplateReader
+remove_callback	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def remove_callback(self, callback):$/;"	m	class:IOLoop
+remove_handler	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def remove_handler(self, fd):$/;"	m	class:IOLoop
+remove_timeout	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def remove_timeout(self, timeout):$/;"	m	class:IOLoop
+removeslash	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^def removeslash(method):$/;"	f
+render	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^        def render(*args, **kwargs):$/;"	f	function:RequestHandler._ui_module
+render	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def render(self, *args, **kwargs):$/;"	m	class:UIModule
+render	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def render(self, template_name, **kwargs):$/;"	m	class:RequestHandler
+render_string	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def render_string(self, path, **kwargs):$/;"	m	class:UIModule
+render_string	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def render_string(self, template_name, **kwargs):$/;"	m	class:RequestHandler
+render_xml	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^    def render_xml(self, value):$/;"	m	class:BaseRequestHandler
+request_time	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def request_time(self):$/;"	m	class:HTTPRequest
+request_time	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def request_time(self):$/;"	m	class:HTTPRequest
+require_setting	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def require_setting(self, name, feature="this feature"):$/;"	m	class:RequestHandler
+reset	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def reset(self):$/;"	m	class:Loader
+resolve_path	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def resolve_path(self, name, parent_path=None):$/;"	m	class:Loader
+rethrow	/usr/local/lib/python2.6/dist-packages/tornado/httpclient.py	/^    def rethrow(self):$/;"	m	class:HTTPResponse
+reverse	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def reverse(self, *args):$/;"	m	class:URLSpec
+reverse_url	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def reverse_url(self, name, *args):$/;"	m	class:Application
+reverse_url	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def reverse_url(self, name, *args):$/;"	m	class:RequestHandler
+running	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def running(self):$/;"	m	class:IOLoop
+send_error	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def send_error(self, status_code=500, **kwargs):$/;"	m	class:RequestHandler
+set	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def set(self, value):$/;"	m	class:_Option
+set_blocking_log_threshold	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def set_blocking_log_threshold(self, s):$/;"	m	class:IOLoop
+set_close_callback	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def set_close_callback(self, callback):$/;"	m	class:IOStream
+set_cookie	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def set_cookie(self, name, value, domain=None, expires=None, path="\/",$/;"	m	class:RequestHandler
+set_default_locale	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^def set_default_locale(code):$/;"	f
+set_extra_headers	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def set_extra_headers(self, path):$/;"	m	class:StaticFileHandler
+set_header	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def set_header(self, name, value):$/;"	m	class:RequestHandler
+set_secure_cookie	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def set_secure_cookie(self, name, value, expires_days=30, **kwargs):$/;"	m	class:RequestHandler
+set_status	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def set_status(self, status_code):$/;"	m	class:RequestHandler
+settings	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def settings(self):$/;"	m	class:RequestHandler
+signal	/usr/local/lib/python2.6/dist-packages/tornado/autoreload.py	/^    signal = None$/;"	v
+signal	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    signal = None$/;"	v
+squeeze	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def squeeze(value):$/;"	f
+ssl	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    ssl = None$/;"	v
+start	/usr/local/lib/python2.6/dist-packages/tornado/autoreload.py	/^def start(io_loop=None, check_time=500):$/;"	f
+start	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def start(self, num_processes=1):$/;"	m	class:HTTPServer
+start	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def start(self):$/;"	m	class:IOLoop
+start	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def start(self):$/;"	m	class:PeriodicCallback
+start	/usr/local/lib/python2.6/dist-packages/tornado/s3server.py	/^def start(port, root_directory="\/tmp\/s3", bucket_depth=0):$/;"	f
+start_response	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^        def start_response(status, response_headers, exc_info=None):$/;"	f	function:WSGIContainer.__call__
+static_url	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def static_url(self, path):$/;"	m	class:RequestHandler
+stop	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def stop(self):$/;"	m	class:HTTPServer
+stop	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def stop(self):$/;"	m	class:IOLoop
+stop	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def stop(self):$/;"	m	class:PeriodicCallback
+supports_http_1_1	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def supports_http_1_1(self):$/;"	m	class:HTTPRequest
+supports_http_1_1	/usr/local/lib/python2.6/dist-packages/tornado/wsgi.py	/^    def supports_http_1_1(self):$/;"	m	class:HTTPRequest
+transform_chunk	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def transform_chunk(self, block, finishing):$/;"	m	class:ChunkedTransferEncoding
+transform_chunk	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def transform_chunk(self, chunk, finishing):$/;"	m	class:GZipContentEncoding
+transform_chunk	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def transform_chunk(self, chunk, finishing):$/;"	m	class:OutputTransform
+transform_first_chunk	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def transform_first_chunk(self, headers, chunk, finishing):$/;"	m	class:ChunkedTransferEncoding
+transform_first_chunk	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def transform_first_chunk(self, headers, chunk, finishing):$/;"	m	class:GZipContentEncoding
+transform_first_chunk	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def transform_first_chunk(self, headers, chunk, finishing):$/;"	m	class:OutputTransform
+translate	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def translate(self, message, plural_message=None, count=None):$/;"	m	class:CSVLocale
+translate	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def translate(self, message, plural_message=None, count=None):$/;"	m	class:GettextLocale
+translate	/usr/local/lib/python2.6/dist-packages/tornado/locale.py	/^    def translate(self, message, plural_message=None, count=None):$/;"	m	class:Locale
+twitter_request	/usr/local/lib/python2.6/dist-packages/tornado/auth.py	/^    def twitter_request(self, path, callback, access_token=None,$/;"	m	class:TwitterMixin
+unquote	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^                    def unquote(s):$/;"	f	function:Application.__call__
+unregister	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def unregister(self, fd):$/;"	m	class:_EPoll
+unregister	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def unregister(self, fd):$/;"	m	class:_KQueue
+unregister	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def unregister(self, fd):$/;"	m	class:_Select
+update	/usr/local/lib/python2.6/dist-packages/tornado/httputil.py	/^    def update(self, *args, **kwargs):$/;"	m	class:HTTPHeaders
+update_handler	/usr/local/lib/python2.6/dist-packages/tornado/ioloop.py	/^    def update_handler(self, fd, events):$/;"	m	class:IOLoop
+url	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^url = URLSpec$/;"	v
+url_escape	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def url_escape(value):$/;"	f
+url_unescape	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def url_unescape(value):$/;"	f
+utf8	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def utf8(value):$/;"	f
+value	/usr/local/lib/python2.6/dist-packages/tornado/options.py	/^    def value(self):$/;"	m	class:_Option
+wrapper	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^        def wrapper(*args, **kwargs):$/;"	f	function:RequestHandler.async_callback
+wrapper	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:addslash
+wrapper	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:asynchronous
+wrapper	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:authenticated
+wrapper	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def wrapper(self, *args, **kwargs):$/;"	f	function:removeslash
+write	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def write(self, chunk):$/;"	m	class:HTTPConnection
+write	/usr/local/lib/python2.6/dist-packages/tornado/httpserver.py	/^    def write(self, chunk):$/;"	m	class:HTTPRequest
+write	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def write(self, data, callback=None):$/;"	m	class:IOStream
+write	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def write(self, chunk):$/;"	m	class:RequestHandler
+write	/usr/local/lib/python2.6/dist-packages/tornado/win32_support.py	/^    def write(self, data):$/;"	m	class:Pipe
+write_line	/usr/local/lib/python2.6/dist-packages/tornado/template.py	/^    def write_line(self, line, indent=None):$/;"	m	class:_CodeWriter
+writing	/usr/local/lib/python2.6/dist-packages/tornado/iostream.py	/^    def writing(self):$/;"	m	class:IOStream
+xhtml_escape	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def xhtml_escape(value):$/;"	f
+xhtml_unescape	/usr/local/lib/python2.6/dist-packages/tornado/escape.py	/^def xhtml_unescape(value):$/;"	f
+xsrf_form_html	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def xsrf_form_html(self):$/;"	m	class:RequestHandler
+xsrf_token	/usr/local/lib/python2.6/dist-packages/tornado/web.py	/^    def xsrf_token(self):$/;"	m	class:RequestHandler

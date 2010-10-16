@@ -1,0 +1,487 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CUR_DIR	/usr/lib/php5/build/run-tests.php	/^$CUR_DIR = getcwd();$/;"	v
+DETAILED	/usr/lib/php5/build/run-tests.php	/^					$DETAILED = true;$/;"	v
+DETAILED	/usr/lib/php5/build/run-tests.php	/^	$DETAILED = 0;$/;"	v
+DETAILED	/usr/lib/php5/build/run-tests.php	/^	$DETAILED = getenv('TEST_PHP_DETAILED');$/;"	v
+FILE_BINARY	/usr/lib/php5/build/run-tests.php	/^		define('FILE_BINARY', 0);$/;"	d
+IN_REDIRECT	/usr/lib/php5/build/run-tests.php	/^			$IN_REDIRECT = false;$/;"	v
+IN_REDIRECT	/usr/lib/php5/build/run-tests.php	/^		$IN_REDIRECT = eval($section_text['REDIRECTTEST']);$/;"	v
+PHP_FAILED_TESTS	/usr/lib/php5/build/run-tests.php	/^$PHP_FAILED_TESTS = array('BORKED' => array(), 'FAILED' => array(), 'WARNED' => array(), 'LEAKED' => array(), 'XFAILED' => array());$/;"	v
+PHP_MAJOR_VERSION	/usr/lib/php5/build/run-tests.php	/^	define("PHP_MAJOR_VERSION", $major);$/;"	d
+PHP_QA_EMAIL	/usr/lib/php5/build/run-tests.php	/^define('PHP_QA_EMAIL', 'qa-reports@lists.php.net');$/;"	d
+PHP_VERSION_ID	/usr/lib/php5/build/run-tests.php	/^	define("PHP_VERSION_ID", "{$major}0{$minor}$bug");$/;"	d
+QA_SUBMISSION_PAGE	/usr/lib/php5/build/run-tests.php	/^define('QA_SUBMISSION_PAGE', 'http:\/\/qa.php.net\/buildtest-process.php');$/;"	d
+STRING_TYPE	/usr/lib/php5/build/run-tests.php	/^	define('STRING_TYPE', 'string');$/;"	d
+STRING_TYPE	/usr/lib/php5/build/run-tests.php	/^	define('STRING_TYPE', 'unicode');$/;"	d
+TESTED_PHP_VERSION	/usr/lib/php5/build/run-tests.php	/^	define('TESTED_PHP_VERSION', `$php -n -r "echo PHP_VERSION;"`);$/;"	d
+__DIR__	/usr/lib/php5/build/run-tests.php	/^	define('__DIR__', realpath(dirname(__FILE__)));$/;"	d
+a	/usr/lib/php5/build/run-tests.php	/^	$a = test_name($a);$/;"	v
+argc	/usr/lib/php5/build/run-tests.php	/^	$argc = count($argv);$/;"	v
+args	/usr/lib/php5/build/run-tests.php	/^	$args = isset($section_text['ARGS']) ? ' -- ' . $section_text['ARGS'] : '';$/;"	v
+argv	/usr/lib/php5/build/run-tests.php	/^		$argv = array(__FILE__);$/;"	v
+argv	/usr/lib/php5/build/run-tests.php	/^	$argv = array_merge($argv, split(' ', getenv('TEST_PHP_ARGS')));$/;"	v
+autoconf	/usr/lib/php5/build/run-tests.php	/^					$autoconf = shell_exec('autoconf --version');$/;"	v
+autoconf	/usr/lib/php5/build/run-tests.php	/^					$autoconf = shell_exec(getenv('PHP_AUTOCONF') . ' --version');$/;"	v
+b	/usr/lib/php5/build/run-tests.php	/^	$b = test_name($b);$/;"	v
+bin_env	/usr/lib/php5/build/run-tests.php	/^	$bin_env = array();$/;"	v
+binary_section	/usr/lib/php5/build/run-tests.php	/^function binary_section($section)$/;"	f
+bork_info	/usr/lib/php5/build/run-tests.php	/^					$bork_info = "could not load --FILE_EXTERNAL-- " . dirname($file) . '\/' . trim($section_text['FILE_EXTERNAL']);$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^				$bork_info = "Can't redirect a test from within a redirected test";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^				$bork_info = "cannot read test";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^				$bork_info = "duplicated $section section";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^				$bork_info = "missing section --EXPECT--, --EXPECTF-- or --EXPECTREGEX--";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^				$bork_info = "missing section --FILE--";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^			$bork_info = "Redirect info must contain exactly one TEST string to be used as redirect directory.";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^			$bork_info = "cannot read test";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^		$bork_info = "Redirected test did not contain redirection info";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^		$bork_info = "empty test [$file]";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^		$bork_info = "tests must start with --TEST-- [$file]";$/;"	v
+bork_info	/usr/lib/php5/build/run-tests.php	/^	$bork_info = '';$/;"	v
+borked	/usr/lib/php5/build/run-tests.php	/^					$borked = true;$/;"	v
+borked	/usr/lib/php5/build/run-tests.php	/^				$borked    = true;$/;"	v
+borked	/usr/lib/php5/build/run-tests.php	/^				$borked = false;$/;"	v
+borked	/usr/lib/php5/build/run-tests.php	/^				$borked = true;$/;"	v
+borked	/usr/lib/php5/build/run-tests.php	/^			$borked = true;$/;"	v
+borked	/usr/lib/php5/build/run-tests.php	/^		$borked = true;$/;"	v
+borked	/usr/lib/php5/build/run-tests.php	/^	$borked = false;$/;"	v
+bug	/usr/lib/php5/build/run-tests.php	/^		$bug = "0$bug";$/;"	v
+bug	/usr/lib/php5/build/run-tests.php	/^	$bug = (int)$bug; \/\/ Many distros make up their own versions$/;"	v
+c1	/usr/lib/php5/build/run-tests.php	/^			$c1 = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1+1, $idx2, $cnt1, $cnt2, 10);$/;"	v
+c2	/usr/lib/php5/build/run-tests.php	/^			$c2 = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $idx2+1, $cnt1,  $cnt2, 10);$/;"	v
+cc_status	/usr/lib/php5/build/run-tests.php	/^				$cc_status = 0;$/;"	v
+cfg	/usr/lib/php5/build/run-tests.php	/^$cfg = array();$/;"	v
+cfgfiles	/usr/lib/php5/build/run-tests.php	/^$cfgfiles = array('skip', 'php', 'clean', 'out', 'diff', 'exp');$/;"	v
+cfgtypes	/usr/lib/php5/build/run-tests.php	/^$cfgtypes = array('show', 'keep');$/;"	v
+clean_params	/usr/lib/php5/build/run-tests.php	/^				$clean_params = array();$/;"	v
+cmd	/usr/lib/php5/build/run-tests.php	/^			$cmd = "valgrind -q --tool=memcheck --trace-children=yes --log-file-exactly=$memcheck_filename $cmd";$/;"	v
+cmd	/usr/lib/php5/build/run-tests.php	/^			$cmd = "valgrind -q --tool=memcheck --trace-children=yes --log-file=$memcheck_filename $cmd";$/;"	v
+cmd	/usr/lib/php5/build/run-tests.php	/^		$cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" $args 2>&1";$/;"	v
+cmd	/usr/lib/php5/build/run-tests.php	/^		$cmd = "$php $pass_options $ini_settings -f \\"$test_file\\" 2>&1 < $tmp_post";$/;"	v
+code	/usr/lib/php5/build/run-tests.php	/^	$code = proc_close($proc);$/;"	v
+comp_line	/usr/lib/php5/build/run-tests.php	/^function comp_line($l1, $l2, $is_reg)$/;"	f
+compiler	/usr/lib/php5/build/run-tests.php	/^						$compiler = shell_exec(getenv('CC') . " $flag 2>&1");$/;"	v
+compression	/usr/lib/php5/build/run-tests.php	/^$compression = 0;$/;"	v
+compute_summary	/usr/lib/php5/build/run-tests.php	/^function compute_summary()$/;"	f
+conf_passed	/usr/lib/php5/build/run-tests.php	/^					$conf_passed = $argv[++$i];$/;"	v
+conf_passed	/usr/lib/php5/build/run-tests.php	/^$conf_passed = null;$/;"	v
+content_length	/usr/lib/php5/build/run-tests.php	/^		$content_length = strlen($post);$/;"	v
+copy_file	/usr/lib/php5/build/run-tests.php	/^		$copy_file     = $temp_dir . DIRECTORY_SEPARATOR . basename(is_array($file) ? $file[1] : $file) . '.phps';$/;"	v
+count_array_diff	/usr/lib/php5/build/run-tests.php	/^function count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $idx2, $cnt1, $cnt2, $steps)$/;"	f
+cwd	/usr/lib/php5/build/run-tests.php	/^$cwd = getcwd();$/;"	v
+data	/usr/lib/php5/build/run-tests.php	/^	$data = "php_test_data=" . urlencode(base64_encode(str_replace("\\00", '[0x0]', $data)));$/;"	v
+data	/usr/lib/php5/build/run-tests.php	/^	$data = b'';$/;"	v
+data_length	/usr/lib/php5/build/run-tests.php	/^	$data_length = strlen($data);$/;"	v
+diff	/usr/lib/php5/build/run-tests.php	/^			$diff = "# original source file: $shortname\\n" . $diff;$/;"	v
+diff	/usr/lib/php5/build/run-tests.php	/^			$diff = "&nbsp;";$/;"	v
+diff	/usr/lib/php5/build/run-tests.php	/^			$diff = "<a href='$url'>diff<\/a>";$/;"	v
+diff	/usr/lib/php5/build/run-tests.php	/^		$diff = generate_diff($wanted, $wanted_re, $output);$/;"	v
+diff	/usr/lib/php5/build/run-tests.php	/^	$diff = array();$/;"	v
+diff	/usr/lib/php5/build/run-tests.php	/^	$diff = generate_array_diff($r, $o, !is_null($wanted_re), $w);$/;"	v
+diff_filename	/usr/lib/php5/build/run-tests.php	/^	$diff_filename     = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'diff';$/;"	v
+e	/usr/lib/php5/build/run-tests.php	/^			$e = explode('=', trim($e), 2);$/;"	v
+e	/usr/lib/php5/build/run-tests.php	/^		$e = null;$/;"	v
+end	/usr/lib/php5/build/run-tests.php	/^						$end = $start = $length;$/;"	v
+end	/usr/lib/php5/build/run-tests.php	/^					$end = strpos($wanted_re, $r, $start+2);$/;"	v
+end_time	/usr/lib/php5/build/run-tests.php	/^		$end_time = time();$/;"	v
+end_time	/usr/lib/php5/build/run-tests.php	/^$end_time = time();$/;"	v
+environment	/usr/lib/php5/build/run-tests.php	/^$environment = isset($_ENV) ? $_ENV : array();$/;"	v
+eq	/usr/lib/php5/build/run-tests.php	/^			$eq = @count_array_diff($ar1, $ar2, $is_reg, $w, $idx1, $ofs2, $cnt1, $cnt2, $st);$/;"	v
+eq	/usr/lib/php5/build/run-tests.php	/^			$eq = @count_array_diff($ar1, $ar2, $is_reg, $w, $ofs1, $idx2, $cnt1, $cnt2, $st);$/;"	v
+eq1	/usr/lib/php5/build/run-tests.php	/^				$eq1 = $eq;$/;"	v
+eq1	/usr/lib/php5/build/run-tests.php	/^		$eq1 = 0;$/;"	v
+eq2	/usr/lib/php5/build/run-tests.php	/^				$eq2 = $eq;$/;"	v
+eq2	/usr/lib/php5/build/run-tests.php	/^		$eq2 = 0;$/;"	v
+equal	/usr/lib/php5/build/run-tests.php	/^	$equal = 0;$/;"	v
+error	/usr/lib/php5/build/run-tests.php	/^function error($message)$/;"	f
+error_report	/usr/lib/php5/build/run-tests.php	/^function error_report($testname, $logname, $tested) $/;"	f
+exp_filename	/usr/lib/php5/build/run-tests.php	/^	$exp_filename      = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'exp';$/;"	v
+extra	/usr/lib/php5/build/run-tests.php	/^				$extra = "skipif";$/;"	v
+extra	/usr/lib/php5/build/run-tests.php	/^				$extra = substr(PHP_OS, 0, 3) !== "WIN" ?$/;"	v
+extra	/usr/lib/php5/build/run-tests.php	/^			$extra = "&nbsp;";$/;"	v
+extra	/usr/lib/php5/build/run-tests.php	/^			$extra = "<a href='$url'>$extra<\/a>";$/;"	v
+extra	/usr/lib/php5/build/run-tests.php	/^			$extra = substr(PHP_OS, 0, 3) !== "WIN" ?$/;"	v
+exts_skipped	/usr/lib/php5/build/run-tests.php	/^$exts_skipped = 0;$/;"	v
+exts_tested	/usr/lib/php5/build/run-tests.php	/^$exts_tested = count($exts_to_test);$/;"	v
+exts_to_test	/usr/lib/php5/build/run-tests.php	/^	$exts_to_test = explode(',',`$php $pass_options $info_params "$info_file"`);$/;"	v
+exts_to_test	/usr/lib/php5/build/run-tests.php	/^$exts_to_test = array();$/;"	v
+failed_headers	/usr/lib/php5/build/run-tests.php	/^				$failed_headers = true;$/;"	v
+failed_headers	/usr/lib/php5/build/run-tests.php	/^	$failed_headers = false;$/;"	v
+failed_test_summary	/usr/lib/php5/build/run-tests.php	/^	$failed_test_summary = '';$/;"	v
+failed_tests_data	/usr/lib/php5/build/run-tests.php	/^			$failed_tests_data = '';$/;"	v
+failed_tests_file	/usr/lib/php5/build/run-tests.php	/^					$failed_tests_file = fopen($argv[++$i], 'a+t');$/;"	v
+failed_tests_file	/usr/lib/php5/build/run-tests.php	/^					$failed_tests_file = fopen($argv[++$i], 'w+t');$/;"	v
+failed_tests_file	/usr/lib/php5/build/run-tests.php	/^$failed_tests_file= false;$/;"	v
+file	/usr/lib/php5/build/run-tests.php	/^			$file = $org_file[0];$/;"	v
+file	/usr/lib/php5/build/run-tests.php	/^		$file = $file[0];$/;"	v
+find_files	/usr/lib/php5/build/run-tests.php	/^function find_files($dir, $is_ext_dir = false, $ignore = false)$/;"	f
+flags	/usr/lib/php5/build/run-tests.php	/^				$flags = array('-v', '-V', '--version');$/;"	v
+fp	/usr/lib/php5/build/run-tests.php	/^		$fp = fopen("php:\/\/stdin", "r+");$/;"	v
+fp	/usr/lib/php5/build/run-tests.php	/^	$fp = fopen($file, "rb") or error("Cannot open test file: $file");$/;"	v
+fs	/usr/lib/php5/build/run-tests.php	/^	$fs = fsockopen($url_bits['host'], $url_bits['port'], $errno, $errstr, 10);$/;"	v
+func_check_version_match	/usr/lib/php5/build/ltmain.sh	/^func_check_version_match ()$/;"	f
+func_config	/usr/lib/php5/build/ltmain.sh	/^func_config ()$/;"	f
+func_dirname_and_basename	/usr/lib/php5/build/ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	/usr/lib/php5/build/ltmain.sh	/^func_echo ()$/;"	f
+func_emit_cwrapperexe_src	/usr/lib/php5/build/ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	/usr/lib/php5/build/ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper_part1	/usr/lib/php5/build/ltmain.sh	/^func_emit_wrapper_part1 ()$/;"	f
+func_emit_wrapper_part2	/usr/lib/php5/build/ltmain.sh	/^func_emit_wrapper_part2 ()$/;"	f
+func_enable_tag	/usr/lib/php5/build/ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	/usr/lib/php5/build/ltmain.sh	/^func_error ()$/;"	f
+func_execute_cmds	/usr/lib/php5/build/ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	/usr/lib/php5/build/ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	/usr/lib/php5/build/ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fatal_configuration	/usr/lib/php5/build/ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	/usr/lib/php5/build/ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	/usr/lib/php5/build/ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	/usr/lib/php5/build/ltmain.sh	/^func_features ()$/;"	f
+func_generate_dlsyms	/usr/lib/php5/build/ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	/usr/lib/php5/build/ltmain.sh	/^func_grep ()$/;"	f
+func_help	/usr/lib/php5/build/ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	/usr/lib/php5/build/ltmain.sh	/^func_infer_tag ()$/;"	f
+func_lalib_p	/usr/lib/php5/build/ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	/usr/lib/php5/build/ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_ltwrapper_executable_p	/usr/lib/php5/build/ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	/usr/lib/php5/build/ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	/usr/lib/php5/build/ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	/usr/lib/php5/build/ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	/usr/lib/php5/build/ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	/usr/lib/php5/build/ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	/usr/lib/php5/build/ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	/usr/lib/php5/build/ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	/usr/lib/php5/build/ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	/usr/lib/php5/build/ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	/usr/lib/php5/build/ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	/usr/lib/php5/build/ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	/usr/lib/php5/build/ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	/usr/lib/php5/build/ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_quote_for_eval	/usr/lib/php5/build/ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	/usr/lib/php5/build/ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_show_eval	/usr/lib/php5/build/ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	/usr/lib/php5/build/ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	/usr/lib/php5/build/ltmain.sh	/^func_source ()$/;"	f
+func_to_host_path	/usr/lib/php5/build/ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_host_pathlist	/usr/lib/php5/build/ltmain.sh	/^func_to_host_pathlist ()$/;"	f
+func_usage	/usr/lib/php5/build/ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	/usr/lib/php5/build/ltmain.sh	/^func_verbose ()$/;"	f
+func_version	/usr/lib/php5/build/ltmain.sh	/^func_version ()$/;"	f
+func_warning	/usr/lib/php5/build/ltmain.sh	/^func_warning ()$/;"	f
+func_win32_libid	/usr/lib/php5/build/ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	/usr/lib/php5/build/ltmain.sh	/^func_write_libtool_object ()$/;"	f
+generate_array_diff	/usr/lib/php5/build/run-tests.php	/^function generate_array_diff($ar1, $ar2, $is_reg, $w)$/;"	f
+generate_diff	/usr/lib/php5/build/run-tests.php	/^function generate_diff($wanted, $wanted_re, $output)$/;"	f
+get_summary	/usr/lib/php5/build/run-tests.php	/^function get_summary($show_ext_summary, $show_html)$/;"	f
+headers	/usr/lib/php5/build/run-tests.php	/^				$headers = $org_headers[$k];$/;"	v
+headers	/usr/lib/php5/build/run-tests.php	/^		$headers = array();$/;"	v
+headers	/usr/lib/php5/build/run-tests.php	/^	$headers = b"";$/;"	v
+html_file	/usr/lib/php5/build/run-tests.php	/^					$html_file = fopen($argv[++$i], 'wt');$/;"	v
+html_file	/usr/lib/php5/build/run-tests.php	/^$html_file = null;$/;"	v
+html_output	/usr/lib/php5/build/run-tests.php	/^					$html_output = is_resource($html_file);$/;"	v
+html_output	/usr/lib/php5/build/run-tests.php	/^$html_output = false;$/;"	v
+idx1	/usr/lib/php5/build/run-tests.php	/^	$idx1 = 0; $ofs1 = 0; $cnt1 = @count($ar1);$/;"	v
+idx2	/usr/lib/php5/build/run-tests.php	/^	$idx2 = 0; $ofs2 = 0; $cnt2 = @count($ar2);$/;"	v
+ignored_by_ext	/usr/lib/php5/build/run-tests.php	/^$ignored_by_ext = 0;$/;"	v
+index	/usr/lib/php5/build/run-tests.php	/^			$index = "# $name[1]: $name[0]";$/;"	v
+index	/usr/lib/php5/build/run-tests.php	/^			$index = "# $redir_tested: $name";$/;"	v
+index	/usr/lib/php5/build/run-tests.php	/^			$index = $name;$/;"	v
+info	/usr/lib/php5/build/run-tests.php	/^					$info = " (info: $m[1])";$/;"	v
+info	/usr/lib/php5/build/run-tests.php	/^					$info = " (warn: $m[1])";$/;"	v
+info	/usr/lib/php5/build/run-tests.php	/^					$info = " (warn: XFAIL section but test passes)";$/;"	v
+info	/usr/lib/php5/build/run-tests.php	/^	$info = '';$/;"	v
+info_file	/usr/lib/php5/build/run-tests.php	/^	$info_file = __DIR__ . '\/run-test-info.php';$/;"	v
+info_params	/usr/lib/php5/build/run-tests.php	/^	$info_params = array();$/;"	v
+info_params_ex	/usr/lib/php5/build/run-tests.php	/^	$info_params_ex = array($/;"	v
+ini_overwrites	/usr/lib/php5/build/run-tests.php	/^			$ini_overwrites = array_merge($ini_overwrites, $ini_overwrites_ex);$/;"	v
+ini_overwrites	/usr/lib/php5/build/run-tests.php	/^$ini_overwrites = array($/;"	v
+ini_settings	/usr/lib/php5/build/run-tests.php	/^	$ini_settings = $settings;$/;"	v
+ini_settings	/usr/lib/php5/build/run-tests.php	/^	$ini_settings = array();$/;"	v
+is_switch	/usr/lib/php5/build/run-tests.php	/^								$is_switch = false;$/;"	v
+is_switch	/usr/lib/php5/build/run-tests.php	/^				$is_switch = true;$/;"	v
+is_switch	/usr/lib/php5/build/run-tests.php	/^			$is_switch = true;$/;"	v
+is_switch	/usr/lib/php5/build/run-tests.php	/^		$is_switch = false;$/;"	v
+just_save_results	/usr/lib/php5/build/run-tests.php	/^					$just_save_results = true;$/;"	v
+just_save_results	/usr/lib/php5/build/run-tests.php	/^		$just_save_results = (strtolower($user_input[0]) == 's');$/;"	v
+just_save_results	/usr/lib/php5/build/run-tests.php	/^$just_save_results = false;$/;"	v
+k1	/usr/lib/php5/build/run-tests.php	/^			$k1 = next($old1) ? key($old1) : null;$/;"	v
+k2	/usr/lib/php5/build/run-tests.php	/^			$k2 = next($old2) ? key($old2) : null;$/;"	v
+l1	/usr/lib/php5/build/run-tests.php	/^			$l1 = $k1;$/;"	v
+l2	/usr/lib/php5/build/run-tests.php	/^			$l2 = $k2;$/;"	v
+last	/usr/lib/php5/build/run-tests.php	/^				$last = 1;$/;"	v
+last	/usr/lib/php5/build/run-tests.php	/^				$last = 2;$/;"	v
+ldd	/usr/lib/php5/build/run-tests.php	/^				$ldd = shell_exec("ldd $php 2>\/dev\/null");$/;"	v
+ldd	/usr/lib/php5/build/run-tests.php	/^			$ldd = $autoconf = $sys_libtool = $libtool = $compiler = 'N\/A';$/;"	v
+leak_check	/usr/lib/php5/build/run-tests.php	/^					$leak_check = true;$/;"	v
+leak_check	/usr/lib/php5/build/run-tests.php	/^$leak_check = false;$/;"	v
+leaked	/usr/lib/php5/build/run-tests.php	/^		$leaked = filesize($memcheck_filename) > 0;$/;"	v
+leaked	/usr/lib/php5/build/run-tests.php	/^	$leaked = false;$/;"	v
+length	/usr/lib/php5/build/run-tests.php	/^			$length = strlen($wanted_re);$/;"	v
+libtool	/usr/lib/php5/build/run-tests.php	/^				$libtool = shell_exec($CUR_DIR . '\/libtool --version');$/;"	v
+line	/usr/lib/php5/build/run-tests.php	/^				$line = explode(b':', $line, 2);$/;"	v
+line	/usr/lib/php5/build/run-tests.php	/^			$line = (binary) fread($pipes[1], 8192);$/;"	v
+line	/usr/lib/php5/build/run-tests.php	/^			$line = unicode_decode($line, "utf-8");$/;"	v
+line	/usr/lib/php5/build/run-tests.php	/^		$line = fgets($fp);$/;"	v
+lines	/usr/lib/php5/build/run-tests.php	/^		$lines = preg_split(b"\/[\\n\\r]+\/", (binary) $section_text['EXPECTHEADERS']);$/;"	v
+log_filename	/usr/lib/php5/build/run-tests.php	/^	$log_filename      = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'log';$/;"	v
+log_format	/usr/lib/php5/build/run-tests.php	/^	$log_format = 'LEOD';$/;"	v
+log_format	/usr/lib/php5/build/run-tests.php	/^	$log_format = strtoupper(getenv('TEST_PHP_LOG_FORMAT'));$/;"	v
+logname	/usr/lib/php5/build/run-tests.php	/^	$logname  = realpath($logname);$/;"	v
+mail_qa_team	/usr/lib/php5/build/run-tests.php	/^function mail_qa_team($data, $compression, $status = false)$/;"	f
+main	/usr/lib/php5/build/config.guess	/^		main()$/;"	f
+main	/usr/lib/php5/build/config.guess	/^	main ()$/;"	f
+main	/usr/lib/php5/build/config.guess	/^main ()$/;"	f
+main_file_name	/usr/lib/php5/build/run-tests.php	/^	$main_file_name = basename($file,'phpt');$/;"	v
+matches	/usr/lib/php5/build/run-tests.php	/^							$matches = array();$/;"	v
+mem	/usr/lib/php5/build/run-tests.php	/^			$mem = "&nbsp;";$/;"	v
+mem	/usr/lib/php5/build/run-tests.php	/^			$mem = "<a href='$url'>leaks<\/a>";$/;"	v
+memcheck_filename	/usr/lib/php5/build/run-tests.php	/^	$memcheck_filename = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'mem';$/;"	v
+n	/usr/lib/php5/build/run-tests.php	/^		$n = @stream_select($r, $w, $e, $timeout);$/;"	v
+n_total	/usr/lib/php5/build/run-tests.php	/^	$n_total = count($test_results);$/;"	v
+name	/usr/lib/php5/build/run-tests.php	/^				$name = $name[0];$/;"	v
+name	/usr/lib/php5/build/run-tests.php	/^			$name = trim(strtolower($setting[0]));$/;"	v
+no_clean	/usr/lib/php5/build/run-tests.php	/^					$no_clean = true;$/;"	v
+no_clean	/usr/lib/php5/build/run-tests.php	/^$no_clean = false;$/;"	v
+o	/usr/lib/php5/build/run-tests.php	/^	$o = explode(b"\\n", $output);$/;"	v
+o	/usr/lib/php5/build/run-tests.php	/^	$o = opendir($dir) or error("cannot open directory: $dir");$/;"	v
+old1	/usr/lib/php5/build/run-tests.php	/^	$old1 = array();$/;"	v
+old2	/usr/lib/php5/build/run-tests.php	/^	$old2 = array();$/;"	v
+old_php	/usr/lib/php5/build/run-tests.php	/^				$old_php = $php;$/;"	v
+old_php	/usr/lib/php5/build/run-tests.php	/^			$old_php = $php;$/;"	v
+optionals	/usr/lib/php5/build/run-tests.php	/^$optionals = array('tests', 'ext', 'Zend', 'ZendEngine2', 'sapi\/cli', 'sapi\/cgi');$/;"	v
+org_file	/usr/lib/php5/build/run-tests.php	/^	$org_file = $file;$/;"	v
+org_headers	/usr/lib/php5/build/run-tests.php	/^		$org_headers = $headers;$/;"	v
+out	/usr/lib/php5/build/run-tests.php	/^	$out = (binary) system_with_timeout($cmd, $env, isset($section_text['STDIN']) ? $section_text['STDIN'] : null);$/;"	v
+output	/usr/lib/php5/build/run-tests.php	/^			$output = system_with_timeout("$extra $php $pass_options -q $ini_settings -d display_errors=0 $test_skipif", $env);$/;"	v
+output	/usr/lib/php5/build/run-tests.php	/^		$output = (binary) $output_headers . b"\\n--HEADERS--\\n" . (binary) $output;$/;"	v
+output	/usr/lib/php5/build/run-tests.php	/^		$output = trim($match[2]);$/;"	v
+output	/usr/lib/php5/build/run-tests.php	/^	$output = preg_replace(b"\/\\r\\n\/", b"\\n", trim($out));$/;"	v
+output_file	/usr/lib/php5/build/run-tests.php	/^					$output_file = $argv[++$i];$/;"	v
+output_file	/usr/lib/php5/build/run-tests.php	/^	$output_file = 'compress.zlib:\/\/' . $output_file . '.gz';$/;"	v
+output_file	/usr/lib/php5/build/run-tests.php	/^$output_file = $CUR_DIR . '\/php_test_results_' . date('Ymd_Hi') . '.txt';$/;"	v
+output_filename	/usr/lib/php5/build/run-tests.php	/^	$output_filename   = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'out';$/;"	v
+output_headers	/usr/lib/php5/build/run-tests.php	/^		$output_headers = array();$/;"	v
+output_headers	/usr/lib/php5/build/run-tests.php	/^		$output_headers = join(b"\\n", $output_headers);$/;"	v
+pass_option_n	/usr/lib/php5/build/run-tests.php	/^					$pass_option_n = true;$/;"	v
+pass_option_n	/usr/lib/php5/build/run-tests.php	/^$pass_option_n = false;$/;"	v
+pass_options	/usr/lib/php5/build/run-tests.php	/^$pass_options = '';$/;"	v
+passed	/usr/lib/php5/build/run-tests.php	/^			$passed = true;$/;"	v
+passed	/usr/lib/php5/build/run-tests.php	/^		$passed = false;$/;"	v
+passed	/usr/lib/php5/build/run-tests.php	/^	$passed = false;$/;"	v
+pattern_match	/usr/lib/php5/build/run-tests.php	/^					$pattern_match = glob($argv[$i] . '.phpt');$/;"	v
+pattern_match	/usr/lib/php5/build/run-tests.php	/^					$pattern_match = glob($argv[$i]);$/;"	v
+percent_results	/usr/lib/php5/build/run-tests.php	/^	$percent_results = array();$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^					$php = $argv[++$i];$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^					$php = $old_php;$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^				$php = $old_php;$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^				$php = realpath(".\/sapi\/cgi\/php-cgi") . ' -C ';$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^				$php = realpath(dirname($php) . "\/..\/..\/sapi\/cgi\/php-cgi") . ' -C ';$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^			$php = $php_cgi . ' -C ';$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^			$php = realpath(dirname($php) . "\/php-cgi.exe") . ' -C ';$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^		$php = $cwd . '\/sapi\/cli\/php';$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^		$php = $old_php;$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^	$php = getenv('TEST_PHP_EXECUTABLE');$/;"	v
+php	/usr/lib/php5/build/run-tests.php	/^$php = null;$/;"	v
+php_cgi	/usr/lib/php5/build/run-tests.php	/^				$php_cgi = null;$/;"	v
+php_cgi	/usr/lib/php5/build/run-tests.php	/^			$php_cgi = $cwd . '\/sapi\/cgi\/php-cgi';$/;"	v
+php_cgi	/usr/lib/php5/build/run-tests.php	/^		$php_cgi = $cwd . '\/sapi\/cgi\/php-cgi';$/;"	v
+php_cgi	/usr/lib/php5/build/run-tests.php	/^		$php_cgi = $env['TEST_PHP_CGI_EXECUTABLE'];$/;"	v
+php_cgi	/usr/lib/php5/build/run-tests.php	/^	$php_cgi = getenv('TEST_PHP_CGI_EXECUTABLE');$/;"	v
+php_cgi	/usr/lib/php5/build/run-tests.php	/^$php_cgi = null;$/;"	v
+php_cgi_info	/usr/lib/php5/build/run-tests.php	/^		$php_cgi_info = "$php_info_sep\\nPHP         : $php_cgi $php_info_cgi$php_info_sep";$/;"	v
+php_cgi_info	/usr/lib/php5/build/run-tests.php	/^		$php_cgi_info = '';$/;"	v
+php_info	/usr/lib/php5/build/run-tests.php	/^	$php_info = '<?php echo "$/;"	v
+php_info	/usr/lib/php5/build/run-tests.php	/^	$php_info = `$php $pass_options $info_params "$info_file"`;$/;"	v
+php_info_cgi	/usr/lib/php5/build/run-tests.php	/^		$php_info_cgi = `$php_cgi $pass_options $info_params -q "$info_file"`;$/;"	v
+php_info_sep	/usr/lib/php5/build/run-tests.php	/^		$php_info_sep = "\\n---------------------------------------------------------------------";$/;"	v
+php_version	/usr/lib/php5/build/run-tests.php	/^	$php_version = urlencode(TESTED_PHP_VERSION);$/;"	v
+post	/usr/lib/php5/build/run-tests.php	/^			$post = gzcompress($post, 9);$/;"	v
+post	/usr/lib/php5/build/run-tests.php	/^			$post = gzencode($post, 9, FORCE_GZIP);$/;"	v
+post	/usr/lib/php5/build/run-tests.php	/^		$post = trim($section_text['POST']);$/;"	v
+post	/usr/lib/php5/build/run-tests.php	/^		$post = trim($section_text['POST_RAW']);$/;"	v
+proc	/usr/lib/php5/build/run-tests.php	/^	$proc = proc_open($commandline, array($/;"	v
+query_string	/usr/lib/php5/build/run-tests.php	/^		$query_string = '';$/;"	v
+query_string	/usr/lib/php5/build/run-tests.php	/^		$query_string = trim($section_text['GET']);$/;"	v
+r	/usr/lib/php5/build/run-tests.php	/^			$r = b"%r";$/;"	v
+r	/usr/lib/php5/build/run-tests.php	/^		$r = $pipes;$/;"	v
+r	/usr/lib/php5/build/run-tests.php	/^	$r = is_null($wanted_re) ? $w : explode(b"\\n", $wanted_re);$/;"	v
+raw_lines	/usr/lib/php5/build/run-tests.php	/^		$raw_lines = explode("\\n", $post);$/;"	v
+redir_tests	/usr/lib/php5/build/run-tests.php	/^$redir_tests = array();$/;"	v
+redirenv	/usr/lib/php5/build/run-tests.php	/^			$redirenv = array_merge($environment, $IN_REDIRECT['ENV']);$/;"	v
+repeat	/usr/lib/php5/build/run-tests.php	/^						$repeat = true;$/;"	v
+repeat	/usr/lib/php5/build/run-tests.php	/^			$repeat = false;$/;"	v
+repeat	/usr/lib/php5/build/run-tests.php	/^		$repeat = substr($argv[$i],0,1) == '-';$/;"	v
+replace_count	/usr/lib/php5/build/run-tests.php	/^					$replace_count = 0;$/;"	v
+request	/usr/lib/php5/build/run-tests.php	/^		$request = '';$/;"	v
+result	/usr/lib/php5/build/run-tests.php	/^		$result = run_test($php, $name, $env);$/;"	v
+rh	/usr/lib/php5/build/run-tests.php	/^		$rh = preg_split(b"\/[\\n\\r]+\/", $match[1]);$/;"	v
+run_all_tests	/usr/lib/php5/build/run-tests.php	/^function run_all_tests($test_files, $env, $redir_tested = null)$/;"	f
+run_test	/usr/lib/php5/build/run-tests.php	/^function run_test($php, $file, $env)$/;"	f
+save_or_mail_results	/usr/lib/php5/build/run-tests.php	/^function save_or_mail_results()$/;"	f
+save_text	/usr/lib/php5/build/run-tests.php	/^function save_text($filename, $text, $filename_copy = null)$/;"	f
+secdone	/usr/lib/php5/build/run-tests.php	/^			$secdone = false;$/;"	v
+secdone	/usr/lib/php5/build/run-tests.php	/^			$secdone = true;$/;"	v
+secdone	/usr/lib/php5/build/run-tests.php	/^	$secdone = false;$/;"	v
+secfile	/usr/lib/php5/build/run-tests.php	/^			$secfile = $section == 'FILE' || $section == 'FILEEOF' || $section == 'FILE_EXTERNAL';$/;"	v
+secfile	/usr/lib/php5/build/run-tests.php	/^	$secfile = false;$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^			$section = $r[1];$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^			$section = strtoupper($file);$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^			$section == 'CLEAN'$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^			$section == 'EXPECT'		||$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^			$section == 'EXPECTF'		||$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^			$section == 'EXPECTHEADERS'	||$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^			$section == 'EXPECTREGEX'	||$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^			$section == 'FILE'			||$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^			$section == 'SKIPIF'		||$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^	        $section == 'FILEEOF'		||$/;"	v
+section	/usr/lib/php5/build/run-tests.php	/^	$section = 'TEST';$/;"	v
+section_text	/usr/lib/php5/build/run-tests.php	/^	$section_text = array('TEST' => '');$/;"	v
+sep	/usr/lib/php5/build/run-tests.php	/^			$sep = "\\n" . str_repeat('=', 80) . "\\n";$/;"	v
+setting	/usr/lib/php5/build/run-tests.php	/^			$setting = explode("=", $setting, 2);$/;"	v
+settings	/usr/lib/php5/build/run-tests.php	/^	$settings = '';$/;"	v
+settings2array	/usr/lib/php5/build/run-tests.php	/^function settings2array($settings, &$ini_settings)$/;"	f
+settings2params	/usr/lib/php5/build/run-tests.php	/^function settings2params(&$ini_settings)$/;"	f
+shortname	/usr/lib/php5/build/run-tests.php	/^	$shortname = str_replace($cwd . '\/', '', $file);$/;"	v
+show_end	/usr/lib/php5/build/run-tests.php	/^function show_end($end_time)$/;"	f
+show_file_block	/usr/lib/php5/build/run-tests.php	/^function show_file_block($file, $block, $section = null)$/;"	f
+show_redirect_ends	/usr/lib/php5/build/run-tests.php	/^function show_redirect_ends($tests, $tested, $tested_file)$/;"	f
+show_redirect_start	/usr/lib/php5/build/run-tests.php	/^function show_redirect_start($tests, $tested, $tested_file)$/;"	f
+show_result	/usr/lib/php5/build/run-tests.php	/^function show_result($result, $tested, $tested_file, $extra = '', $temp_filenames = null)$/;"	f
+show_start	/usr/lib/php5/build/run-tests.php	/^function show_start($start_time)$/;"	f
+show_summary	/usr/lib/php5/build/run-tests.php	/^function show_summary()$/;"	f
+show_test	/usr/lib/php5/build/run-tests.php	/^function show_test($test_idx, $shortname)$/;"	f
+shtool_exit	/usr/lib/php5/build/shtool	/^shtool_exit () {$/;"	f
+skip_ext	/usr/lib/php5/build/run-tests.php	/^			$skip_ext = ($is_ext_dir && !in_array(strtolower($name), $exts_to_test));$/;"	v
+st	/usr/lib/php5/build/run-tests.php	/^		$st = $steps \/ 2;$/;"	v
+st	/usr/lib/php5/build/run-tests.php	/^		$st = $steps;$/;"	v
+start	/usr/lib/php5/build/run-tests.php	/^					$start = $end = $length;$/;"	v
+start	/usr/lib/php5/build/run-tests.php	/^				$start = strpos($wanted_re, $r, $startOffset);$/;"	v
+startOffset	/usr/lib/php5/build/run-tests.php	/^				$startOffset = $end + 2;$/;"	v
+startOffset	/usr/lib/php5/build/run-tests.php	/^			$startOffset = 0;$/;"	v
+start_time	/usr/lib/php5/build/run-tests.php	/^		$start_time = time();$/;"	v
+start_time	/usr/lib/php5/build/run-tests.php	/^$start_time = time();$/;"	v
+started	/usr/lib/php5/build/run-tests.php	/^			$started = true;$/;"	v
+started	/usr/lib/php5/build/run-tests.php	/^		$started = false;$/;"	v
+stat	/usr/lib/php5/build/run-tests.php	/^	$stat = proc_get_status($proc);$/;"	v
+status	/usr/lib/php5/build/run-tests.php	/^				$status = "failed";$/;"	v
+status	/usr/lib/php5/build/run-tests.php	/^				$status = "success";$/;"	v
+sum_results	/usr/lib/php5/build/run-tests.php	/^	$sum_results = array($/;"	v
+summary	/usr/lib/php5/build/run-tests.php	/^	$summary = '';$/;"	v
+switch	/usr/lib/php5/build/run-tests.php	/^					$switch = $argv[$i];$/;"	v
+switch	/usr/lib/php5/build/run-tests.php	/^				$switch = substr($argv[$i],1,1);$/;"	v
+switch	/usr/lib/php5/build/run-tests.php	/^		$switch = substr($argv[$i],1,1);$/;"	v
+sys_libtool	/usr/lib/php5/build/run-tests.php	/^					$sys_libtool = shell_exec(str_replace("\\n", "", $sys_libtool_path) . ' --version');$/;"	v
+sys_libtool_path	/usr/lib/php5/build/run-tests.php	/^				$sys_libtool_path = shell_exec(__DIR__ . '\/build\/shtool path glibtool libtool');$/;"	v
+system_with_timeout	/usr/lib/php5/build/run-tests.php	/^function system_with_timeout($commandline, $env = null, $stdin = null)$/;"	f
+ta	/usr/lib/php5/build/run-tests.php	/^	$ta = strpos($a, "{$cwd}\/tests") === 0 ? 1 + (strpos($a, "{$cwd}\/tests\/run-test") === 0 ? 1 : 0) : 0;$/;"	v
+tb	/usr/lib/php5/build/run-tests.php	/^	$tb = strpos($b, "{$cwd}\/tests") === 0 ? 1 + (strpos($b, "{$cwd}\/tests\/run-test") === 0 ? 1 : 0) : 0;$/;"	v
+temp	/usr/lib/php5/build/run-tests.php	/^					$temp = $temp . b'(' . substr($wanted_re, $start+2, ($end - $start-2)). b')';$/;"	v
+temp	/usr/lib/php5/build/run-tests.php	/^				$temp = $temp . preg_quote(substr($wanted_re, $startOffset, ($start - $startOffset)),  b'\/');$/;"	v
+temp	/usr/lib/php5/build/run-tests.php	/^			$temp = b"";$/;"	v
+temp_clean	/usr/lib/php5/build/run-tests.php	/^	$temp_clean        = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'clean.php';$/;"	v
+temp_dir	/usr/lib/php5/build/run-tests.php	/^		$temp_dir = $test_dir = $IN_REDIRECT['dir'];$/;"	v
+temp_dir	/usr/lib/php5/build/run-tests.php	/^		$temp_dir = $test_dir = realpath(dirname($file));$/;"	v
+temp_dir	/usr/lib/php5/build/run-tests.php	/^		$temp_dir = str_replace($temp_source, $temp_target, $temp_dir);$/;"	v
+temp_file	/usr/lib/php5/build/run-tests.php	/^	$temp_file         = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'php';$/;"	v
+temp_filenames	/usr/lib/php5/build/run-tests.php	/^		$temp_filenames = array($/;"	v
+temp_filenames	/usr/lib/php5/build/run-tests.php	/^	$temp_filenames = null;$/;"	v
+temp_skipif	/usr/lib/php5/build/run-tests.php	/^	$temp_skipif       = $temp_dir . DIRECTORY_SEPARATOR . $main_file_name . 'skip.php';$/;"	v
+temp_source	/usr/lib/php5/build/run-tests.php	/^					$temp_source = $argv[++$i];$/;"	v
+temp_source	/usr/lib/php5/build/run-tests.php	/^$temp_source = null;$/;"	v
+temp_target	/usr/lib/php5/build/run-tests.php	/^					$temp_target = $argv[++$i];$/;"	v
+temp_target	/usr/lib/php5/build/run-tests.php	/^$temp_target = null;$/;"	v
+temp_urlbase	/usr/lib/php5/build/run-tests.php	/^						$temp_urlbase = $temp_target;$/;"	v
+temp_urlbase	/usr/lib/php5/build/run-tests.php	/^					$temp_urlbase = $argv[++$i];$/;"	v
+temp_urlbase	/usr/lib/php5/build/run-tests.php	/^$temp_urlbase = null;$/;"	v
+test_clean	/usr/lib/php5/build/run-tests.php	/^	$test_clean        = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'clean.php';$/;"	v
+test_cnt	/usr/lib/php5/build/run-tests.php	/^	$test_cnt = count($test_files);$/;"	v
+test_cnt	/usr/lib/php5/build/run-tests.php	/^$test_cnt = count($test_files);$/;"	v
+test_dirs	/usr/lib/php5/build/run-tests.php	/^$test_dirs = array();$/;"	v
+test_file	/usr/lib/php5/build/run-tests.php	/^	$test_file         = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'php';$/;"	v
+test_files	/usr/lib/php5/build/run-tests.php	/^					$test_files = array_merge($test_files, $pattern_match);$/;"	v
+test_files	/usr/lib/php5/build/run-tests.php	/^		$test_files = array();$/;"	v
+test_files	/usr/lib/php5/build/run-tests.php	/^	$test_files = array_merge($test_files, $redir_tests);$/;"	v
+test_files	/usr/lib/php5/build/run-tests.php	/^	$test_files = array_unique($test_files);$/;"	v
+test_files	/usr/lib/php5/build/run-tests.php	/^$test_files = array();$/;"	v
+test_files	/usr/lib/php5/build/run-tests.php	/^$test_files = array_unique($test_files);$/;"	v
+test_idx	/usr/lib/php5/build/run-tests.php	/^		$test_idx = 0;$/;"	v
+test_idx	/usr/lib/php5/build/run-tests.php	/^$test_idx = 0;$/;"	v
+test_list	/usr/lib/php5/build/run-tests.php	/^					$test_list = file($argv[++$i]);$/;"	v
+test_name	/usr/lib/php5/build/run-tests.php	/^function test_name($name)$/;"	f
+test_results	/usr/lib/php5/build/run-tests.php	/^$test_results = array();$/;"	v
+test_skipif	/usr/lib/php5/build/run-tests.php	/^	$test_skipif       = $test_dir . DIRECTORY_SEPARATOR . $main_file_name . 'skip.php';$/;"	v
+test_sort	/usr/lib/php5/build/run-tests.php	/^function test_sort($a, $b)$/;"	f
+tested	/usr/lib/php5/build/run-tests.php	/^			$tested = "<a href='$url'>$tested<\/a>";$/;"	v
+tested	/usr/lib/php5/build/run-tests.php	/^		$tested = $IN_REDIRECT['prefix'] . ' ' . trim($section_text['TEST']);$/;"	v
+tested	/usr/lib/php5/build/run-tests.php	/^	$tested = trim($section_text['TEST']);$/;"	v
+tested_file	/usr/lib/php5/build/run-tests.php	/^		$tested_file = $tmp_relative_file;$/;"	v
+tested_file	/usr/lib/php5/build/run-tests.php	/^	$tested_file = $shortname;$/;"	v
+testfile	/usr/lib/php5/build/run-tests.php	/^				$testfile = realpath("{$dir}\/{$name}");$/;"	v
+testfile	/usr/lib/php5/build/run-tests.php	/^			$testfile = realpath($argv[$i]);$/;"	v
+testname	/usr/lib/php5/build/run-tests.php	/^	$testname = realpath($testname);$/;"	v
+timeout	/usr/lib/php5/build/run-tests.php	/^	$timeout = $leak_check ? 300 : (isset($env['TEST_TIMEOUT']) ? $env['TEST_TIMEOUT'] : 60);$/;"	v
+tmp_post	/usr/lib/php5/build/run-tests.php	/^	$tmp_post          = $temp_dir . DIRECTORY_SEPARATOR . uniqid('\/phpt.');$/;"	v
+tmp_relative_file	/usr/lib/php5/build/run-tests.php	/^	$tmp_relative_file = str_replace(__DIR__ . DIRECTORY_SEPARATOR, '', $test_file) . 't';$/;"	v
+url	/usr/lib/php5/build/run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['diff']);$/;"	v
+url	/usr/lib/php5/build/run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['file']);$/;"	v
+url	/usr/lib/php5/build/run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['mem']);$/;"	v
+url	/usr/lib/php5/build/run-tests.php	/^			$url = str_replace($temp_target, $temp_urlbase, $temp_filenames['skip']);$/;"	v
+url_bits	/usr/lib/php5/build/run-tests.php	/^	$url_bits = parse_url(QA_SUBMISSION_PAGE);$/;"	v
+user_email	/usr/lib/php5/build/run-tests.php	/^				$user_email = str_replace("@", " at ", str_replace(".", " dot ", $user_email));$/;"	v
+user_email	/usr/lib/php5/build/run-tests.php	/^				$user_email = trim(fgets($fp, 1024));$/;"	v
+user_input	/usr/lib/php5/build/run-tests.php	/^				$user_input = 's';$/;"	v
+user_input	/usr/lib/php5/build/run-tests.php	/^		$user_input = fgets($fp, 10);$/;"	v
+user_tests	/usr/lib/php5/build/run-tests.php	/^	$user_tests = array();$/;"	v
+user_tests	/usr/lib/php5/build/run-tests.php	/^	$user_tests = explode (',', getenv('TEST_PHP_USER'));$/;"	v
+util_lower	/usr/lib/php5/build/shtool	/^util_lower () {$/;"	f
+util_upper	/usr/lib/php5/build/shtool	/^util_upper () {$/;"	f
+val	/usr/lib/php5/build/run-tests.php	/^				$val = addslashes($val);$/;"	v
+valgrind_cmd	/usr/lib/php5/build/run-tests.php	/^					$valgrind_cmd = "valgrind --version";$/;"	v
+valgrind_header	/usr/lib/php5/build/run-tests.php	/^						$valgrind_header = trim($valgrind_header);$/;"	v
+valgrind_header	/usr/lib/php5/build/run-tests.php	/^					$valgrind_header = system_with_timeout($valgrind_cmd);$/;"	v
+valgrind_header	/usr/lib/php5/build/run-tests.php	/^$valgrind_header = '';$/;"	v
+valgrind_version	/usr/lib/php5/build/run-tests.php	/^						$valgrind_version = preg_replace("\/valgrind-([0-9])\\.([0-9])\\.([0-9]+)([.-]\\w+)?(\\s+)\/", '$1$2$3', $valgrind_header, 1, $replace_count);$/;"	v
+valgrind_version	/usr/lib/php5/build/run-tests.php	/^$valgrind_version = 0;$/;"	v
+value	/usr/lib/php5/build/run-tests.php	/^			$value = addslashes($value);$/;"	v
+value	/usr/lib/php5/build/run-tests.php	/^			$value = trim($setting[1]);$/;"	v
+verify_config	/usr/lib/php5/build/run-tests.php	/^function verify_config()$/;"	f
+w	/usr/lib/php5/build/run-tests.php	/^		$w = null;$/;"	v
+w	/usr/lib/php5/build/run-tests.php	/^	$w = explode(b"\\n", $wanted);$/;"	v
+want	/usr/lib/php5/build/run-tests.php	/^		$want = array();$/;"	v
+wanted	/usr/lib/php5/build/run-tests.php	/^			$wanted = trim($section_text['EXPECTF']);$/;"	v
+wanted	/usr/lib/php5/build/run-tests.php	/^			$wanted = trim($section_text['EXPECTREGEX']);$/;"	v
+wanted	/usr/lib/php5/build/run-tests.php	/^		$wanted = (binary) $wanted_headers . b"\\n--HEADERS--\\n" . (binary) $wanted;$/;"	v
+wanted	/usr/lib/php5/build/run-tests.php	/^		$wanted = (binary) trim($section_text['EXPECT']);$/;"	v
+wanted	/usr/lib/php5/build/run-tests.php	/^		$wanted = preg_replace(b'\/\\r\\n\/',b"\\n", $wanted);$/;"	v
+wanted_headers	/usr/lib/php5/build/run-tests.php	/^		$wanted_headers = array();$/;"	v
+wanted_headers	/usr/lib/php5/build/run-tests.php	/^		$wanted_headers = join(b"\\n", $wanted_headers);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = $temp;$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = preg_quote($wanted_headers . "\\n--HEADERS--\\n", '\/') . $wanted_re;$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace($/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%A', b'.*', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%S', b'[^\\r\\n]*', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%a', b'.+', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%c', b'.', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%d', b'\\d+', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%e', b'\\\\' . DIRECTORY_SEPARATOR, $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%f', b'[+-]?\\.?\\d+\\.?\\d*(?:[Ee][+-]?\\d+)?', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%i', b'[+-]?\\d+', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%s', b'[^\\r\\n]+', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%w', b'\\s*', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^			$wanted_re = str_replace(b'%x', b'[0-9a-fA-F]+', $wanted_re);$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^		$wanted_re = null;$/;"	v
+wanted_re	/usr/lib/php5/build/run-tests.php	/^		$wanted_re = preg_replace(b'\/\\r\\n\/', b"\\n", $wanted);$/;"	v
+warn	/usr/lib/php5/build/run-tests.php	/^					$warn = true; \/* only if there is a reason *\/$/;"	v
+warn	/usr/lib/php5/build/run-tests.php	/^					$warn = true;$/;"	v
+warn	/usr/lib/php5/build/run-tests.php	/^	$warn = false;$/;"	v
+write_information	/usr/lib/php5/build/run-tests.php	/^function write_information($show_html)$/;"	f
+x_failed	/usr/lib/php5/build/run-tests.php	/^		$x_failed = (100.0 * $sum_results['FAILED']) \/ $x_total;$/;"	v
+x_leaked	/usr/lib/php5/build/run-tests.php	/^		$x_leaked = (100.0 * $sum_results['LEAKED']) \/ $x_total;$/;"	v
+x_passed	/usr/lib/php5/build/run-tests.php	/^		$x_passed = (100.0 * $sum_results['PASSED']) \/ $x_total;$/;"	v
+x_total	/usr/lib/php5/build/run-tests.php	/^	$x_total = $n_total - $sum_results['SKIPPED'] - $sum_results['BORKED'];$/;"	v
+x_warned	/usr/lib/php5/build/run-tests.php	/^		$x_warned = $x_failed = $x_passed = $x_leaked = $x_xfailed = 0;$/;"	v
+x_warned	/usr/lib/php5/build/run-tests.php	/^		$x_warned = (100.0 * $sum_results['WARNED']) \/ $x_total;$/;"	v
+x_xfailed	/usr/lib/php5/build/run-tests.php	/^		$x_xfailed = (100.0 * $sum_results['XFAILED']) \/ $x_total;$/;"	v
