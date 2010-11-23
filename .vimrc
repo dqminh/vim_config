@@ -7,10 +7,7 @@ filetype plugin indent on
 set modelines=0
 
 " Tags
-set tags+=$HOME/.vim/tags/python.ctags
-set tags+=$HOME/.vim/tags/php.ctags
-set tags+=$HOME/.vim/tags/tornado.ctags
-set tags+=$HOME/.vim/tags/cakephp.ctags
+set tags=tags;/
 
 set undofile
 set undodir=/tmp
@@ -24,7 +21,6 @@ set undolevels=1000
 set nobackup
 set noswapfile
 
-set tags=./tags
 set wildmenu
 set cursorline
 set gdefault
@@ -81,6 +77,14 @@ autocmd FileType php let php_sql_query=1
 au BufNewFile,BufRead *.json set syntax=javascript
 autocmd FileType python let python_highlight_all = 1
 au BufNewFile,BufRead *.hbs set syntax=mustache
+au BufNewFile,BufRead *.pde set filetype=c
+au BufNewFile,BufRead *.pde set syntax=c
+au BufNewFile,BufRead *.pde set cindent
+
+autocmd FileType javascript set autoindent
+autocmd FileType javascript set nosmartindent
+autocmd FileType javascript set nocindent
+autocmd FileType javascript set indentexpr=
 
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -168,8 +172,7 @@ let Tlist_Process_File_Always = 1
 let Tlist_Auto_Update = 1
 autocmd BufWritePost *.php :TlistUpdate
 
-" Supertab
-let g:SuperTabDefaultCompletionType='context'
-
 " Source PDV
 source ~/.vim/plugin/php-doc.vim
+
+let processing_doc_path="/home/dqminh/processing/processing-1.2.1/reference"
