@@ -3,7 +3,8 @@ filetype off
 call pathogen#runtime_append_all_bundles() 
 set nocompatible	" use vim defaults
 syntax on
-filetype plugin indent on
+filetype plugin on
+filetype indent on
 set modelines=0
 
 " Tags
@@ -24,7 +25,6 @@ set noswapfile
 set wildmenu
 set cursorline
 set gdefault
-
 
 set nowrap
 set textwidth=79
@@ -81,11 +81,6 @@ au BufNewFile,BufRead *.pde set filetype=c
 au BufNewFile,BufRead *.pde set syntax=c
 au BufNewFile,BufRead *.pde set cindent
 
-autocmd FileType javascript set autoindent
-autocmd FileType javascript set nosmartindent
-autocmd FileType javascript set nocindent
-autocmd FileType javascript set indentexpr=
-
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -109,13 +104,13 @@ if has("gui_running")
     " let g:mayansmoke_special_key_visibility = 2  " higher visibility 
     " let g:mayansmoke_cursor_line_visibility = 2  " higher visibility
     " let moria_fontface='mixed'
-    let moria_fontface='none'
+    "let moria_fontface='none'
     set background=dark
     colorscheme moria_mod
 else
     set t_Co=256
     set background=dark
-    let moria_fontface='none'
+    "let moria_fontface='none'
     colorscheme moria_mod
 endif
 
@@ -176,3 +171,5 @@ autocmd BufWritePost *.php :TlistUpdate
 source ~/.vim/plugin/php-doc.vim
 
 let processing_doc_path="/home/dqminh/processing/processing-1.2.1/reference"
+" Turn javascript brief mode on
+let g:SimpleJsIndenter_BriefMode=1
