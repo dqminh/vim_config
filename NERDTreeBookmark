@@ -1,4 +1,2 @@
-FlickEvents_app /var/www/flickevents/FlickEvents/app
-FlickNetwork /var/www/flickevents/FlickNetwork
-Survey /var/www/flickevents/Survey/app
+SurveyApp /var/www/flickevents/SurveyApp
 
