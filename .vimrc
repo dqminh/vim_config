@@ -1,9 +1,9 @@
 " Setup Pathogen
 filetype off
-call pathogen#runtime_append_all_bundles() 
+call pathogen#runtime_append_all_bundles()
 
 " General settings
-set nocompatible	" use vim defaults
+set nocompatible    " use vim defaults
 filetype plugin on
 filetype indent on
 set number
@@ -12,8 +12,8 @@ syntax on
 set encoding=utf-8
 set undofile
 set undodir=/tmp
-set backupdir=~/.vim/backup
-set directory=~/.vim/backup
+set nobackup
+set noswapfile
 set history=1000
 set undolevels=1000
 
@@ -21,16 +21,16 @@ set undolevels=1000
 set nowrap
 set textwidth=79
 set colorcolumn=80,120
-set tabstop=4		" numbers of spaces of tab character
+set tabstop=4       " numbers of spaces of tab character
 set softtabstop=4
-set shiftwidth=4	" numbers of spaces to (auto)indent
+set shiftwidth=4    " numbers of spaces to (auto)indent
 set shiftround      " When at 3 spaces and I hit >> , go to nearest tabstop/shiftwidth
-set expandtab		" no tab, only spaces
+set expandtab       " no tab, only spaces
 
 " Searching
 set hlsearch
-set incsearch		" incremental searching
-set ignorecase		" ignore case when searching
+set incsearch       " incremental searching
+set ignorecase      " ignore case when searching
 set smartcase
 
 " Tab completion
@@ -48,18 +48,20 @@ set gdefault
 set cursorline
 set hidden
 set showmatch
-set scrolloff=5		" keep 5 lines when scrolling
-set showcmd		" display incomplete command
+set scrolloff=5     " keep 5 lines when scrolling
+set showcmd     " display incomplete command
 
-set visualbell t_vb=	" turn off error beep/ flash
-set novisualbell	" turn off visual bell
-set ttyfast		" smoother changes
-set shortmess=atI	" Abbreviate messages
+set visualbell t_vb=    " turn off error beep/ flash
+set novisualbell    " turn off visual bell
+set ttyfast     " smoother changes
+set shortmess=atI   " Abbreviate messages
 set backspace=indent,eol,start
-set fo=tcrq       " t autowraps text using textwidth
+set fo=tcrqo
+" t autowraps text using textwidth
 " c autowraps comments using textwidth
 " r autoinserts the current comment leader
 " q allows formatting of comments
+" o auto insert comment leader when press o or O
 
 " Indent
 set autoindent
@@ -169,7 +171,7 @@ au BufNewFile,BufRead *.html set textwidth=999
 
 " default colorscheme
 set t_Co =256
-colorscheme molokai
+colorscheme molokai_mod
 
 if has("gui_running")
     set guioptions=aAce
@@ -188,12 +190,11 @@ if has("gui_running")
     vmap <leader>] >gv
     vmap <leader>[ <gv
 
-    set listchars=tab:▸\ ,eol:¬
-
     " set guifont=Anonymous\ Pro\ Regular\ 11
     set guifont=Consolas\ Regular\ 12
     " set guifont=Droid\ Sans\ Mono\ 8.8
-    let moria_fontface='mixed'
-    set background=dark
-    colorscheme moria_mod
+    "let moria_fontface='mixed'
+    "set background=dark
+    "let g:molokai_original=1
+    colorscheme molokai_mod
 endif
