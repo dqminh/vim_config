@@ -19,9 +19,6 @@
 [submodule "bundle/vim-indent-object"]
 	path = bundle/vim-indent-object
 	url = git://github.com/michaeljsmith/vim-indent-object.git
-[submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
-	url = git://github.com/pangloss/vim-javascript.git
 [submodule "bundle/vim-jslint"]
 	path = bundle/vim-jslint
 	url = git://github.com/hallettj/jslint.vim.git
@@ -46,3 +43,6 @@
 [submodule "bundle/vim-syntastic"]
 	path = bundle/vim-syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
