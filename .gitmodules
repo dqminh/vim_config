@@ -46,3 +46,6 @@
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git
+[submodule "bundle/vim-js"]
+	path = bundle/vim-js
+	url = git://github.com/vim-scripts/Simple-Javascript-Indenter.git
