@@ -16,6 +16,7 @@ set nobackup
 set noswapfile
 set history=1000
 set undolevels=1000
+set tags=tags;/
 
 " Whitespace and tablevel
 set nowrap
@@ -122,7 +123,7 @@ let g:CommandTMaxHeight=20
 nnoremap <Leader>rf :CommandTFlush<CR>
 
 " CTags
-map <leader>er :!ctags --extra=+f -R *<CR><CR>
+map <leader>er :!ctags -R --exclude=".git"  --exclude="*.js" *<CR><CR>
 
 " Remember last location in file
 if has("autocmd")
@@ -171,4 +172,4 @@ au BufNewFile,BufRead *.html set textwidth=999
 
 " default colorscheme
 set t_Co =256
-colorscheme molokai_mod
+colorscheme moria_mod

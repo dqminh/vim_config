@@ -49,3 +49,18 @@
 [submodule "bundle/vim-js"]
 	path = bundle/vim-js
 	url = git://github.com/vim-scripts/Simple-Javascript-Indenter.git
+[submodule "bundle/vim-rainbow"]
+	path = bundle/vim-rainbow
+	url = git://github.com/chrismetcalf/vim-rainbow.git
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = git://github.com/juvenn/mustache.vim.git
+[submodule "bundle/ironman-color"]
+	path = bundle/ironman-color
+	url = git://github.com/vim-scripts/ironman.vim.git
+[submodule "bundle/fruity-color"]
+	path = bundle/fruity-color
+	url = git://github.com/vim-scripts/fruity.vim.git
+[submodule "bundle/rails"]
+	path = bundle/rails
+	url = https://github.com/tpope/vim-rails.git

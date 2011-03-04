@@ -14,10 +14,10 @@ map <leader>\ <plug>NERDCommenterToggle<CR>
 vmap <leader>] >gv
 vmap <leader>[ <gv
 
-" set guifont=Anonymous\ Pro\ Regular\ 11
+"set guifont=Anonymous\ Pro\ Regular\ 11
 set guifont=Consolas\ Regular\ 12
 " set guifont=Droid\ Sans\ Mono\ 8.8
 "let moria_fontface='mixed'
-"set background=dark
 "let g:molokai_original=1
-colorscheme molokai_mod
+set background=dark
+colorscheme moria_mod

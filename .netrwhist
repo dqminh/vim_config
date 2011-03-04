@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/dqminh/workspace/appengine/meusurvey/app/apps'
 let g:netrw_dirhist_2='/home/dqminh/config/git-zsh/plugins/vi-mode'
 let g:netrw_dirhist_3='/home/dqminh/config/git-zsh/plugins/mysql'
+let g:netrw_dirhist_4='/home/dqminh/public_html/flickevents'
+let g:netrw_dirhist_5='/home/dqminh/public_html/helium/app'
