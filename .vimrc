@@ -142,6 +142,10 @@ let g:SimpleJsIndenter_BriefMode=1
 map <silent> <F11> :set guifont=Consolas\ Regular\ 11<CR>
 map <silent> <F12> :set guifont=Consolas\ Regular\ 12<CR>
 
+" Switch Tab
+map <silent> <F1> :tabnext<CR>
+map <silent> <F2> :tabprevious<CR>
+
 " TagList
 let Tlist_Auto_Open = 0
 let Tlist_Compact_Format = 1
@@ -154,6 +158,7 @@ let Tlist_Auto_Update = 1
 
 " Filetypes
 au BufNewFile,BufRead *.ejs set filetype=html
+
 au BufNewFile,BufRead *.ctp set syntax=php
 au BufNewFile,BufRead *.ctp set autoindent
 au BufNewFile,BufRead *.ctp set nosmartindent
@@ -162,14 +167,21 @@ au BufNewFile,BufRead *.ctp set nocindent
 au BufNewFile,BufRead *.phpnote set autoindent
 au BufNewFile,BufRead *.phpnote set syntax=php
 autocmd FileType php let php_sql_query=1
+
 au BufNewFile,BufRead *.json set syntax=javascript
+
 autocmd FileType python let python_highlight_all = 1
+autocmd BufNewFile,BufRead *.py let python_highlight_all = 1
+
 au BufNewFile,BufRead *.hbs set syntax=mustache
+
 au BufNewFile,BufRead *.pde set filetype=c
 au BufNewFile,BufRead *.pde set syntax=c
 au BufNewFile,BufRead *.pde set cindent
+
 au BufNewFile,BufRead *.html set textwidth=999
 
 " default colorscheme
 set t_Co =256
-colorscheme moria_mod
+"set background=dark
+colorscheme molored

@@ -16,8 +16,8 @@ vmap <leader>[ <gv
 
 "set guifont=Anonymous\ Pro\ Regular\ 11
 set guifont=Consolas\ Regular\ 12
-" set guifont=Droid\ Sans\ Mono\ 8.8
+"set guifont=Droid\ Sans\ Mono\ 8.8
 "let moria_fontface='mixed'
 "let g:molokai_original=1
 set background=dark
-colorscheme moria_mod
+colorscheme molokai
