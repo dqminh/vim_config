@@ -170,8 +170,8 @@ autocmd FileType php let php_sql_query=1
 
 au BufNewFile,BufRead *.json set syntax=javascript
 
-autocmd FileType python let python_highlight_all = 1
-autocmd BufNewFile,BufRead *.py let python_highlight_all = 1
+au FileType python let python_highlight_all = 1
+au BufNewFile,BufRead *.py let python_highlight_all = 1
 
 au BufNewFile,BufRead *.hbs set syntax=mustache
 
@@ -183,5 +183,5 @@ au BufNewFile,BufRead *.html set textwidth=999
 
 " default colorscheme
 set t_Co =256
-"set background=dark
-colorscheme molored
+set background=dark
+colorscheme molokai_mod
