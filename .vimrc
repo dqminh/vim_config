@@ -91,7 +91,7 @@ nnoremap <leader>a :Ack
 nnoremap <leader>v V`] " reselect the text that was the pasted
 nnoremap <leader><space> :noh<cr> " ,space will clear hlsearch
 
-map <F8> :TlistToggle<CR>
+nnoremap <silent><F8> :TagbarToggle<CR>
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
@@ -146,15 +146,8 @@ map <silent> <F12> :set guifont=Consolas\ Regular\ 12<CR>
 map <silent> <F1> :tabnext<CR>
 map <silent> <F2> :tabprevious<CR>
 
-" TagList
-let Tlist_Auto_Open = 0
-let Tlist_Compact_Format = 1
-let Tlist_Close_On_Select = 0
-let Tlist_Show_One_File = 1
-let Tlist_Show_Menu = 1
-let Tlist_Auto_Highlight_Tag = 1
-let Tlist_Process_File_Always = 1
-let Tlist_Auto_Update = 1
+" SQL Util
+map <leader>sf :SQLUFormatter<CR>
 
 " Filetypes
 au BufNewFile,BufRead *.ejs set filetype=html
@@ -172,7 +165,6 @@ au BufNewFile,BufRead *.json set syntax=javascript
 
 au FileType python let python_highlight_all = 1
 au BufNewFile,BufRead *.py let python_highlight_all = 1
-autocmd FileType python compiler pylint
 
 au BufNewFile,BufRead *.hbs set syntax=mustache
 
