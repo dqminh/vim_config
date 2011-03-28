@@ -55,15 +55,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
-[submodule "bundle/ironman-color"]
-	path = bundle/ironman-color
-	url = git://github.com/vim-scripts/ironman.vim.git
-[submodule "bundle/fruity-color"]
-	path = bundle/fruity-color
-	url = git://github.com/vim-scripts/fruity.vim.git
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = https://github.com/tpope/vim-rails.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim.git

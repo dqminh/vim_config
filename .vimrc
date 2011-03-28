@@ -172,6 +172,7 @@ au BufNewFile,BufRead *.json set syntax=javascript
 
 au FileType python let python_highlight_all = 1
 au BufNewFile,BufRead *.py let python_highlight_all = 1
+autocmd FileType python compiler pylint
 
 au BufNewFile,BufRead *.hbs set syntax=mustache
 
