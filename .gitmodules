@@ -58,3 +58,27 @@
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule "bundle/vim-sql-utilities"]
+	path = bundle/vim-sql-utilities
+	url = https://github.com/vim-scripts/SQLUtilities
+[submodule "bundle/vim-sql-iabbr"]
+	path = bundle/vim-sql-iabbr
+	url = https://github.com/vim-scripts/sql_iabbr-2.git
+[submodule "bundle/vim-pep8"]
+	path = bundle/vim-pep8
+	url = git://github.com/vim-scripts/pep8--Yusuke.git
+[submodule "bundle/vim-autotag"]
+	path = bundle/vim-autotag
+	url = https://github.com/vim-scripts/AutoTag.git
+[submodule "bundle/vim-indent-guide"]
+	path = bundle/vim-indent-guide
+	url = git://github.com/vim-scripts/Indent-Guides.git
+[submodule "bundle/vim-virtualenv"]
+	path = bundle/vim-virtualenv
+	url = git://github.com/vim-scripts/virtualenv.vim.git
+[submodule "bundle/vim-restart"]
+	path = bundle/vim-restart
+	url = git://github.com/vim-scripts/restart.vim.git
+[submodule "bundle/vim-tagbar"]
+	path = bundle/vim-tagbar
+	url = git://github.com/majutsushi/tagbar.git
