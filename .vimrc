@@ -92,6 +92,7 @@ nnoremap <leader>v V`] " reselect the text that was the pasted
 nnoremap <leader><space> :noh<cr> " ,space will clear hlsearch
 
 nnoremap <silent><F8> :TagbarToggle<CR>
+nnoremap <silent><F5> :Pep8Update<CR>
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
@@ -142,12 +143,12 @@ let g:SimpleJsIndenter_BriefMode=1
 map <silent> <F11> :set guifont=Consolas\ Regular\ 11<CR>
 map <silent> <F12> :set guifont=Consolas\ Regular\ 12<CR>
 
+" Change quote to triple-quote
+nnoremap <leader>cq :normal ysiw"w<CR>
+
 " Switch Tab
 map <silent> <F1> :tabnext<CR>
 map <silent> <F2> :tabprevious<CR>
-
-" SQL Util
-map <leader>sf :SQLUFormatter<CR>
 
 " Filetypes
 au BufNewFile,BufRead *.ejs set filetype=html

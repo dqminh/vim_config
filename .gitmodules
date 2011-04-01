@@ -85,3 +85,9 @@
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
 	url = https://github.com/clones/vim-align.git
+[submodule "bundle/vim-github/colors"]
+	path = bundle/vim-github/colors
+	url = https://github.com/acarapetis/vim-github-theme.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git

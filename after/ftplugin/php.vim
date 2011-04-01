@@ -4,8 +4,6 @@ set autoindent
 inoremap <C-Y> :call PhpDocSingle()<CR>i
 nnoremap <C-Y> :call PhpDocSingle()<CR>
 vnoremap <C-Y> :call PhpDocSingle()<CR>
-let tlist_php_settings='php;c:class;i:interface;f:function;d:constant;v:variable'
-autocmd BufWritePost *.php :TlistUpdate
 
 "let g:btm_rainbow_color=1
 
