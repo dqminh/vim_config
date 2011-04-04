@@ -175,7 +175,60 @@ au BufNewFile,BufRead *.pde set cindent
 
 au BufNewFile,BufRead *.html set textwidth=999
 
-" default colorscheme
-set t_Co =256
-set background=dark
-colorscheme molokai_mod
+set guioptions=aAce
+
+" Map command-T
+map <leader>t :CommandT<CR>
+imap <leader>t <Esc>:CommandT<CR>
+
+" Meta-Shift-F for Ack
+map <leader>f :Ack<space>
+
+" Command-/ for toggle comment
+map <leader>\ <plug>NERDCommenterToggle<CR>
+
+" Command-][ to increase/decrease indentation
+vmap <leader>] >gv
+vmap <leader>[ <gv
+
+function! ToggleBackground()
+    if (g:solarized_style=="dark")
+        let g:solarized_style="light"
+        colorscheme solarized
+    else
+        let g:solarized_style="dark"
+        colorscheme solarized
+endif
+endfunction
+command! Togbg call ToggleBackground()
+nnoremap <F10> :call ToggleBackground()<CR>
+inoremap <F10> <ESC>:call ToggleBackground()<CR>a
+vnoremap <F10> <ESC>:call ToggleBackground()<CR>
+
+" Set colorscheme and gui specific settings.
+" donot use .gvimrc because maintaining two files is tiring :)
+if has("gui_running")
+    "set guifont=Anonymous\ Pro\ Regular\ 11
+    set guifont=Consolas\ Regular\ 12
+    "set guifont=Droid\ Sans\ Mono\ 8.8
+    "let moria_fontface='mixed'
+    "let g:molokai_original=1
+    set background=dark
+    let moria_style="dark"
+    "let g:solarized_contrast="high"
+    "let g:solarized_contrast="normal"
+    "colorscheme molokai_mod
+    "colorscheme solarized
+    colorscheme moria_mod
+else
+    set t_Co =256
+    set background=dark
+    let moria_style="black"
+    "colorscheme molokai_mod
+    "i prefer high contrast
+    "let g:solarized_contrast="high"
+    "let g:solarized_contrast="normal"
+    "let g:solarized_termcolors=256
+    "colorscheme solarized
+    colorscheme molokai
+endif
