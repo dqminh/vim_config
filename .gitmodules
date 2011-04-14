@@ -91,3 +91,9 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vim-pyflakes"]
+	path = bundle/vim-pyflakes
+	url = git://github.com/kevinw/pyflakes-vim.git
+[submodule "bundle/changesqlcase"]
+	path = bundle/changesqlcase
+	url = https://github.com/vim-scripts/changesqlcase.vim.git

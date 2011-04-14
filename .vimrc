@@ -98,11 +98,11 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-" Maps Alt-[h,j,k,l] to resizing a window split
-map <silent> <A-h> 5<C-W><
-map <silent> <A-j> 5<C-W>-
-map <silent> <A-k> 5<C-W>+
-map <silent> <A-l> 5<C-W>>
+" Maps arrow key to resizing a window split
+nnoremap <left> <C-w>5>
+nnoremap <up> <C-w>5-
+nnoremap <down> <C-w>5+
+nnoremap <right> <C-w>5<
 
 " Map YankRing
 nnoremap <silent> <F3> :YRShow<cr>
@@ -115,6 +115,9 @@ let NERDTreeShowBookmarks=1
 let NERDTreeHighlightCursorline=1
 let NERDTreeChDirMode = 2
 map <leader>n :NERDTreeToggle<CR>
+
+" Change SQL case
+vmap <leader>uc  :call ChangeSqlCase()<cr>
 
 " ZoomWin configuration
 map <leader><leader> :ZoomWin<CR>
@@ -191,6 +194,9 @@ map <leader>\ <plug>NERDCommenterToggle<CR>
 vmap <leader>] >gv
 vmap <leader>[ <gv
 
+" display pyflakes quickfix
+let g:pyflakes_use_quickfix = 0
+
 function! ToggleBackground()
     if (g:solarized_style=="dark")
         let g:solarized_style="light"
@@ -209,17 +215,17 @@ vnoremap <F10> <ESC>:call ToggleBackground()<CR>
 " donot use .gvimrc because maintaining two files is tiring :)
 if has("gui_running")
     "set guifont=Anonymous\ Pro\ Regular\ 11
-    set guifont=Consolas\ Regular\ 12
+    set guifont=Consolas\ Regular\ 11
     "set guifont=Droid\ Sans\ Mono\ 8.8
     "let moria_fontface='mixed'
     "let g:molokai_original=1
     set background=dark
-    let moria_style="dark"
+    "let moria_style="dark"
     "let g:solarized_contrast="high"
     "let g:solarized_contrast="normal"
     "colorscheme molokai_mod
     "colorscheme solarized
-    colorscheme moria_mod
+    colorscheme molokai_mod
 else
     set t_Co =256
     set background=dark
@@ -230,5 +236,5 @@ else
     "let g:solarized_contrast="normal"
     "let g:solarized_termcolors=256
     "colorscheme solarized
-    colorscheme molokai
+    colorscheme molokai_mod
 endif
