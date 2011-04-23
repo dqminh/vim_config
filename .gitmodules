@@ -97,3 +97,6 @@
 [submodule "bundle/changesqlcase"]
 	path = bundle/changesqlcase
 	url = https://github.com/vim-scripts/changesqlcase.vim.git
+[submodule "bundle/vim-haskellmode"]
+	path = bundle/vim-haskellmode
+	url = git://github.com/lukerandall/haskellmode-vim.git

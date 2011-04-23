@@ -177,6 +177,13 @@ au BufNewFile,BufRead *.pde set syntax=c
 au BufNewFile,BufRead *.pde set cindent
 
 au BufNewFile,BufRead *.html set textwidth=999
+au BufNewFile,BufRead *.jhtml set syntax=htmljinja
+au BufNewFile,BufRead *.jhtml set syntax=htmljinja
+au BufNewFile,BufRead *.jhtml set textwidth=999
+
+" Haskell
+au BufEnter *.hs compiler ghc
+let g:haddock_browser="/usr/bin/google-chrome"
 
 set guioptions=aAce
 
