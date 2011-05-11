@@ -413,3 +413,20 @@ imap <leader>t <Esc>:CommandT<CR>
 
 "Copy paste
 imap <Leader>v  <C-O>:set paste<CR><C-r>*<C-O>:set nopaste<CR>
+
+""""""""""""""""""""""""""""""
+" => Minibuffer plugin
+""""""""""""""""""""""""""""""
+let g:miniBufExplModSelTarget = 1
+let g:miniBufExplorerMoreThanOne = 2
+let g:miniBufExplModSelTarget = 0
+let g:miniBufExplUseSingleClick = 1
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplVSplit = 25
+let g:miniBufExplSplitBelow=1
+
+let g:bufExplorerSortBy = "name"
+
+autocmd BufRead,BufNew :call UMiniBufExplorer
+
+map <leader>u :TMiniBufExplorer<cr>
