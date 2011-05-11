@@ -49,21 +49,12 @@
 [submodule "bundle/vim-js"]
 	path = bundle/vim-js
 	url = git://github.com/vim-scripts/Simple-Javascript-Indenter.git
-[submodule "bundle/vim-rainbow"]
-	path = bundle/vim-rainbow
-	url = git://github.com/chrismetcalf/vim-rainbow.git
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = https://github.com/tpope/vim-rails.git
-[submodule "bundle/vim-sql-utilities"]
-	path = bundle/vim-sql-utilities
-	url = https://github.com/vim-scripts/SQLUtilities
-[submodule "bundle/vim-sql-iabbr"]
-	path = bundle/vim-sql-iabbr
-	url = https://github.com/vim-scripts/sql_iabbr-2.git
 [submodule "bundle/vim-pep8"]
 	path = bundle/vim-pep8
 	url = git://github.com/vim-scripts/pep8--Yusuke.git
@@ -76,27 +67,33 @@
 [submodule "bundle/vim-virtualenv"]
 	path = bundle/vim-virtualenv
 	url = git://github.com/vim-scripts/virtualenv.vim.git
-[submodule "bundle/vim-restart"]
-	path = bundle/vim-restart
-	url = git://github.com/vim-scripts/restart.vim.git
 [submodule "bundle/vim-tagbar"]
 	path = bundle/vim-tagbar
 	url = git://github.com/majutsushi/tagbar.git
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
 	url = https://github.com/clones/vim-align.git
-[submodule "bundle/vim-github/colors"]
-	path = bundle/vim-github/colors
-	url = https://github.com/acarapetis/vim-github-theme.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-pyflakes"]
 	path = bundle/vim-pyflakes
 	url = git://github.com/kevinw/pyflakes-vim.git
-[submodule "bundle/changesqlcase"]
-	path = bundle/changesqlcase
-	url = https://github.com/vim-scripts/changesqlcase.vim.git
 [submodule "bundle/vim-haskellmode"]
 	path = bundle/vim-haskellmode
 	url = git://github.com/lukerandall/haskellmode-vim.git
+[submodule "bundle/mirah-vim"]
+	path = bundle/mirah-vim
+	url = git@github.com:dqminh/mirah-vim.git
+[submodule "bundle/vim-blackboard"]
+	path = bundle/vim-blackboard
+	url = https://github.com/nelstrom/vim-blackboard.git
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "bundle/vim-peaksea"]
+	path = bundle/vim-peaksea
+	url = https://github.com/vim-scripts/peaksea.git
+[submodule "bundle/vim-minibuf"]
+	path = bundle/vim-minibuf
+	url = https://github.com/fholgado/minibufexpl.vim.git

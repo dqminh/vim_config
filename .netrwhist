@@ -1,8 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/dqminh/.vim/bundle/vim-colors-solarized'
 let g:netrw_dirhist_2='/home/dqminh/.vim/plugin'
 let g:netrw_dirhist_3='/home/dqminh/.vim/bundle/vim-pyflakes'
 let g:netrw_dirhist_4='/home/dqminh/.vim/bundle/vim-virtualenv'
 let g:netrw_dirhist_5='/home/dqminh/workspace/marketme/app/tests'
 let g:netrw_dirhist_6='/home/dqminh/flickevents/tinderapp'
+let g:netrw_dirhist_7='/home/dqminh/config/git-zsh/plugins/vi-mode'
+let g:netrw_dirhist_8='/home/dqminh/.vim'
+let g:netrw_dirhist_9='/home/dqminh/flickevents/flickevents'
