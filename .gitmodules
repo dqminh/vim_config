@@ -94,6 +94,3 @@
 [submodule "bundle/vim-peaksea"]
 	path = bundle/vim-peaksea
 	url = https://github.com/vim-scripts/peaksea.git
-[submodule "bundle/vim-minibuf"]
-	path = bundle/vim-minibuf
-	url = https://github.com/fholgado/minibufexpl.vim.git
