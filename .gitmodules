@@ -94,3 +94,6 @@
 [submodule "bundle/vim-peaksea"]
 	path = bundle/vim-peaksea
 	url = https://github.com/vim-scripts/peaksea.git
+[submodule "bundle/vim-jquerytmpl"]
+	path = bundle/vim-jquerytmpl
+	url = git://github.com/voldmar/jQuery-Template-Vim-Syntax.git

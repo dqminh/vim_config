@@ -171,7 +171,7 @@ nnoremap <silent> <F3> :YRShow<cr>
 inoremap <silent> <F3> <ESC>:YRShow<cr>
 
 " NERDTree
-let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
+let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$', '\docs' , '\htmlcov']
 let NERDTreeBookmarksFile=expand("$HOME/.vim/NERDTreeBookmark")
 let NERDTreeShowBookmarks=1
 let NERDTreeHighlightCursorline=1
@@ -264,6 +264,7 @@ let g:EasyMotion_leader_key = '<Leader>m'
 "let g:SuperTabDefaultCompletionType = "context"
 "set ofu=syntaxcomplete#Complete
 
+
 " Set colorscheme and gui specific settings.
 " donot use .gvimrc because maintaining two files is tiring :)
 if has("gui_running")
@@ -272,17 +273,17 @@ if has("gui_running")
     "set guifont=Droid\ Sans\ Mono\ 8.8
     "let moria_fontface='mixed'
     "let g:molokai_original=1
-    set background=light
+    set background=dark
     "let moria_style="dark"
     "let g:solarized_contrast="high"
     "let g:solarized_contrast="normal"
-    "colorscheme molokai_mod
-    colorscheme solarized
+    colorscheme molokai
     "colorscheme peaksea
 else
     set t_Co =256
     set ttymouse=xterm
     set background=dark
+    let g:solarized_termcolors=256
     "colorscheme molokai_mod
     "i prefer high contrast
     "let g:solarized_contrast="high"
@@ -311,9 +312,13 @@ au FileType python syn keyword pythonDecorator True None False self
 
 au BufNewFile,BufRead *.jinja set syntax=htmljinja
 au BufNewFile,BufRead *.mako set ft=mako
-au BufNewFile,BufRead *.jhtml set syntax=htmljinja
-au BufNewFile,BufRead *.jhtml set syntax=htmljinja
+
+au BufNewFile,BufRead *.jhtml set filetype=html syntax=htmljinja
+au BufNewFile,BufRead *.jhtml set filetype=html syntax=htmljinja
 au BufNewFile,BufRead *.jhtml set textwidth=999
+
+au BufNewFile,BufRead *.jqt set filetype=html syntax=jquerytmpl
+au BufNewFile,BufRead *.jqt set textwidth=999
 
 au FileType python inoremap <buffer> $r return
 au FileType python inoremap <buffer> $i import
